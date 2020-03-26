@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Group</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Group</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga85511dcaffcfd45c850346134ac9880b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga85511dcaffcfd45c850346134ac9880b">OGE_FindGroupSpr</a> (int iGroupId, string sSprName)</td></tr>
+<tr class="memdesc:ga85511dcaffcfd45c850346134ac9880b"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据名称在群组中找出指定的精灵  <a href="#ga85511dcaffcfd45c850346134ac9880b"></a><br/></td></tr>
+<tr class="memitem:ga14e348958646efe87e0fd083cb603d03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga14e348958646efe87e0fd083cb603d03">OGE_GetFreeSprWithType</a> (int iSprGroupId, int iSprType)</td></tr>
+<tr class="memdesc:ga14e348958646efe87e0fd083cb603d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">从群组中取得一个指定类型的自由精灵  <a href="#ga14e348958646efe87e0fd083cb603d03"></a><br/></td></tr>
+<tr class="memitem:ga52367d7fcb249087c202e586eeb010fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga52367d7fcb249087c202e586eeb010fe">OGE_GetFreeSprWithClassTag</a> (int iSprGroupId, int iSprClassTag)</td></tr>
+<tr class="memdesc:ga52367d7fcb249087c202e586eeb010fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">从群组中取得一个带有指定类标签的自由精灵  <a href="#ga52367d7fcb249087c202e586eeb010fe"></a><br/></td></tr>
+<tr class="memitem:gae2451298f3de1d039dcbf220911bdfde"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gae2451298f3de1d039dcbf220911bdfde">OGE_GetFreeSprWithTag</a> (int iSprGroupId, int iSprTag)</td></tr>
+<tr class="memdesc:gae2451298f3de1d039dcbf220911bdfde"><td class="mdescLeft">&#160;</td><td class="mdescRight">从群组中取得一个带有指定标签的自由精灵  <a href="#gae2451298f3de1d039dcbf220911bdfde"></a><br/></td></tr>
+<tr class="memitem:gaa3f07b77f1341d65003d096f558a737e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gaa3f07b77f1341d65003d096f558a737e">OGE_GetGroupSprCount</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:gaa3f07b77f1341d65003d096f558a737e"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得群组所有精灵的总数  <a href="#gaa3f07b77f1341d65003d096f558a737e"></a><br/></td></tr>
+<tr class="memitem:gac52aab2f8edf34adae9b8defae5fccc3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gac52aab2f8edf34adae9b8defae5fccc3">OGE_GetGroupSprByIndex</a> (int iGroupId, int iIndex)</td></tr>
+<tr class="memdesc:gac52aab2f8edf34adae9b8defae5fccc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得群组中的某一精灵  <a href="#gac52aab2f8edf34adae9b8defae5fccc3"></a><br/></td></tr>
+<tr class="memitem:ga1406de54a8a1d1d5e76d050be25b3fa6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga1406de54a8a1d1d5e76d050be25b3fa6">OGE_GetGroupSpr</a> (int iGroupId, int idx)</td></tr>
+<tr class="memdesc:ga1406de54a8a1d1d5e76d050be25b3fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据代号从群组中取得一个精灵  <a href="#ga1406de54a8a1d1d5e76d050be25b3fa6"></a><br/></td></tr>
+<tr class="memitem:ga86c865523111e82f6136fbe33b0fe1d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga86c865523111e82f6136fbe33b0fe1d7">OGE_GetGroupCount</a> ()</td></tr>
+<tr class="memdesc:ga86c865523111e82f6136fbe33b0fe1d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得游戏中所有群组的总数  <a href="#ga86c865523111e82f6136fbe33b0fe1d7"></a><br/></td></tr>
+<tr class="memitem:ga2b8483c077bcaeaef5db06bfec58bdf1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga2b8483c077bcaeaef5db06bfec58bdf1">OGE_GetGroupByIndex</a> (int iIndex)</td></tr>
+<tr class="memdesc:ga2b8483c077bcaeaef5db06bfec58bdf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得一个群组  <a href="#ga2b8483c077bcaeaef5db06bfec58bdf1"></a><br/></td></tr>
+<tr class="memitem:gae93b53017374fb0771f1b3b9caccc128"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gae93b53017374fb0771f1b3b9caccc128">OGE_GetSprForGroup</a> (int iGroupId, string sSprName, string sClassName)</td></tr>
+<tr class="memdesc:gae93b53017374fb0771f1b3b9caccc128"><td class="mdescLeft">&#160;</td><td class="mdescRight">用指定的模板来创建一个精灵，并加入到群组中  <a href="#gae93b53017374fb0771f1b3b9caccc128"></a><br/></td></tr>
+<tr class="memitem:gadbb65ffbb72a940ed61996692ef9df1a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gadbb65ffbb72a940ed61996692ef9df1a">OGE_RemoveSprFromGroup</a> (int iGroupId, int iSprId)</td></tr>
+<tr class="memdesc:gadbb65ffbb72a940ed61996692ef9df1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">从群组中移除一个精灵  <a href="#gadbb65ffbb72a940ed61996692ef9df1a"></a><br/></td></tr>
+<tr class="memitem:ga4cc61fac36751e5b1ab4a2eccb835956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga4cc61fac36751e5b1ab4a2eccb835956">OGE_RemoveGroup</a> (string sName)</td></tr>
+<tr class="memdesc:ga4cc61fac36751e5b1ab4a2eccb835956"><td class="mdescLeft">&#160;</td><td class="mdescRight">移除一个群组  <a href="#ga4cc61fac36751e5b1ab4a2eccb835956"></a><br/></td></tr>
+<tr class="memitem:gac87e8a9d876832e8d6262fe734aed02a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gac87e8a9d876832e8d6262fe734aed02a">OGE_GetGroup</a> (string sGroupName)</td></tr>
+<tr class="memdesc:gac87e8a9d876832e8d6262fe734aed02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据名称取得群组  <a href="#gac87e8a9d876832e8d6262fe734aed02a"></a><br/></td></tr>
+<tr class="memitem:gaa511f83f0c367c12cc4f3973fd8134b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gaa511f83f0c367c12cc4f3973fd8134b4">OGE_GetGroupByCode</a> (int iCode)</td></tr>
+<tr class="memdesc:gaa511f83f0c367c12cc4f3973fd8134b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据代号取得群组  <a href="#gaa511f83f0c367c12cc4f3973fd8134b4"></a><br/></td></tr>
+<tr class="memitem:ga21e257b2b855cadd33ccaaf5ff61ec2c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga21e257b2b855cadd33ccaaf5ff61ec2c">OGE_GetGroupName</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:ga21e257b2b855cadd33ccaaf5ff61ec2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得群组的名称  <a href="#ga21e257b2b855cadd33ccaaf5ff61ec2c"></a><br/></td></tr>
+<tr class="memitem:gaa417424ba9b88ca9805c96c1b3b5595c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gaa417424ba9b88ca9805c96c1b3b5595c">OGE_OpenGroup</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:gaa417424ba9b88ca9805c96c1b3b5595c"><td class="mdescLeft">&#160;</td><td class="mdescRight">把群组中的所有精灵加入到当前的场景中  <a href="#gaa417424ba9b88ca9805c96c1b3b5595c"></a><br/></td></tr>
+<tr class="memitem:ga39d623e75f4baf6f1d432be9366a8898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga39d623e75f4baf6f1d432be9366a8898">OGE_CloseGroup</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:ga39d623e75f4baf6f1d432be9366a8898"><td class="mdescLeft">&#160;</td><td class="mdescRight">把群组中所有的精灵从当前的场景中移走  <a href="#ga39d623e75f4baf6f1d432be9366a8898"></a><br/></td></tr>
+<tr class="memitem:gac8ff772bf9a04e9d693a660c41bf0440"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gac8ff772bf9a04e9d693a660c41bf0440">OGE_GroupGenSpr</a> (int iSprGroupId, string sTempletSprName, int iCount)</td></tr>
+<tr class="memdesc:gac8ff772bf9a04e9d693a660c41bf0440"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据某一精灵模板在群组中生成若干精灵  <a href="#gac8ff772bf9a04e9d693a660c41bf0440"></a><br/></td></tr>
+<tr class="memitem:ga1b578f5850f2cf7bdba294f1455a1dc2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#ga1b578f5850f2cf7bdba294f1455a1dc2">OGE_GetRootSprFromGroup</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:ga1b578f5850f2cf7bdba294f1455a1dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得群组中的首精灵  <a href="#ga1b578f5850f2cf7bdba294f1455a1dc2"></a><br/></td></tr>
+<tr class="memitem:gaf69f8f5f284f6c705fa349333634fe27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___group.html#gaf69f8f5f284f6c705fa349333634fe27">OGE_GetFreeSprFromGroup</a> (int iSprGroupId)</td></tr>
+<tr class="memdesc:gaf69f8f5f284f6c705fa349333634fe27"><td class="mdescLeft">&#160;</td><td class="mdescRight">从群组中取得一个自由的（不处于忙碌状态下的）精灵  <a href="#gaf69f8f5f284f6c705fa349333634fe27"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="ga39d623e75f4baf6f1d432be9366a8898"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___group.html#ga39d623e75f4baf6f1d432be9366a8898">OGE_CloseGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把群组中所有的精灵从当前的场景中移走 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga85511dcaffcfd45c850346134ac9880b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga85511dcaffcfd45c850346134ac9880b">OGE_FindGroupSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSprName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据名称在群组中找出指定的精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSprName</td><td>精灵的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf69f8f5f284f6c705fa349333634fe27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gaf69f8f5f284f6c705fa349333634fe27">OGE_GetFreeSprFromGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从群组中取得一个自由的（不处于忙碌状态下的）精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>自由精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga52367d7fcb249087c202e586eeb010fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga52367d7fcb249087c202e586eeb010fe">OGE_GetFreeSprWithClassTag</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprClassTag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从群组中取得一个带有指定类标签的自由精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprClassTag</td><td>类标签 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>自由精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae2451298f3de1d039dcbf220911bdfde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gae2451298f3de1d039dcbf220911bdfde">OGE_GetFreeSprWithTag</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprTag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从群组中取得一个带有指定标签的自由精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprTag</td><td>标签（对象标签） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>自由精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga14e348958646efe87e0fd083cb603d03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga14e348958646efe87e0fd083cb603d03">OGE_GetFreeSprWithType</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从群组中取得一个指定类型的自由精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprType</td><td>精灵的类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>自由精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac87e8a9d876832e8d6262fe734aed02a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gac87e8a9d876832e8d6262fe734aed02a">OGE_GetGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sGroupName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据名称取得群组 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sGroupName</td><td>群组的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa511f83f0c367c12cc4f3973fd8134b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gaa511f83f0c367c12cc4f3973fd8134b4">OGE_GetGroupByCode</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据代号取得群组 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCode</td><td>群组的代号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2b8483c077bcaeaef5db06bfec58bdf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga2b8483c077bcaeaef5db06bfec58bdf1">OGE_GetGroupByIndex</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得一个群组 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIndex</td><td>群组的序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga86c865523111e82f6136fbe33b0fe1d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga86c865523111e82f6136fbe33b0fe1d7">OGE_GetGroupCount</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得游戏中所有群组的总数 </p>
+<dl class="section return"><dt>返回:</dt><dd>全部群组的总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga21e257b2b855cadd33ccaaf5ff61ec2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___group.html#ga21e257b2b855cadd33ccaaf5ff61ec2c">OGE_GetGroupName</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得群组的名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1406de54a8a1d1d5e76d050be25b3fa6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga1406de54a8a1d1d5e76d050be25b3fa6">OGE_GetGroupSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据代号从群组中取得一个精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>精灵在群组中的代号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac52aab2f8edf34adae9b8defae5fccc3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gac52aab2f8edf34adae9b8defae5fccc3">OGE_GetGroupSprByIndex</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得群组中的某一精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIndex</td><td>精灵在群组中的序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa3f07b77f1341d65003d096f558a737e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gaa3f07b77f1341d65003d096f558a737e">OGE_GetGroupSprCount</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得群组所有精灵的总数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组中精灵的总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1b578f5850f2cf7bdba294f1455a1dc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#ga1b578f5850f2cf7bdba294f1455a1dc2">OGE_GetRootSprFromGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得群组中的首精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的精灵 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>首精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae93b53017374fb0771f1b3b9caccc128"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gae93b53017374fb0771f1b3b9caccc128">OGE_GetSprForGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSprName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sClassName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>用指定的模板来创建一个精灵，并加入到群组中 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSprName</td><td>精灵的名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sClassName</td><td>模板的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac8ff772bf9a04e9d693a660c41bf0440"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gac8ff772bf9a04e9d693a660c41bf0440">OGE_GroupGenSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sTempletSprName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据某一精灵模板在群组中生成若干精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sTempletSprName</td><td>模板精灵的名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCount</td><td>生成多少个精灵 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>群组中所有精灵的总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa417424ba9b88ca9805c96c1b3b5595c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___group.html#gaa417424ba9b88ca9805c96c1b3b5595c">OGE_OpenGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprGroupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把群组中的所有精灵加入到当前的场景中 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprGroupId</td><td>群组的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4cc61fac36751e5b1ab4a2eccb835956"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___group.html#ga4cc61fac36751e5b1ab4a2eccb835956">OGE_RemoveGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>移除一个群组 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sName</td><td>群组的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gadbb65ffbb72a940ed61996692ef9df1a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___group.html#gadbb65ffbb72a940ed61996692ef9df1a">OGE_RemoveSprFromGroup</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从群组中移除一个精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGroupId</td><td>群组的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

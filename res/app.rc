@@ -1,0 +1,36 @@
+appico ICON "ogeicon.ico"
+
+#if defined(__MWERKS__)
+#include <winresrc.h>
+#else
+#include <windows.h>
+#endif
+
+#define VERSIONINT  1,0,2,1
+#define VERSIONSTR  "1, 0, 2, 1"
+
+1 VERSIONINFO
+    FILEVERSION     VERSIONINT
+    PRODUCTVERSION  VERSIONINT
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "OGE TEAM"
+            VALUE "FileDescription", "Open Game Engine 2D"
+            VALUE "FileVersion", VERSIONSTR
+            VALUE "InternalName", "OGE"
+            VALUE "LegalCopyright", "Copyright 2012 OGE TEAM"
+            VALUE "OriginalFilename", "oge2d.exe"
+            VALUE "ProductName", "OGE"
+            VALUE "ProductVersion", VERSIONSTR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 1033, 1200
+    END
+END

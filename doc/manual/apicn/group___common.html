@@ -1,0 +1,974 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Common</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Common</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gaf28b89a8c756ef0deced11230ea87847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaf28b89a8c756ef0deced11230ea87847">OGE_Print</a> (string sInfo)</td></tr>
+<tr class="memdesc:gaf28b89a8c756ef0deced11230ea87847"><td class="mdescLeft">&#160;</td><td class="mdescRight">把字符串输出到控制台  <a href="#gaf28b89a8c756ef0deced11230ea87847"></a><br/></td></tr>
+<tr class="memitem:gab6453b5da179444580e135dd9969e0d4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gab6453b5da179444580e135dd9969e0d4">OGE_IntToStr</a> (int iValue)</td></tr>
+<tr class="memdesc:gab6453b5da179444580e135dd9969e0d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">整数转字符串  <a href="#gab6453b5da179444580e135dd9969e0d4"></a><br/></td></tr>
+<tr class="memitem:gaec9fcea365b81f7f799ee9b9a06e4591"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaec9fcea365b81f7f799ee9b9a06e4591">OGE_StrToInt</a> (string sValue)</td></tr>
+<tr class="memdesc:gaec9fcea365b81f7f799ee9b9a06e4591"><td class="mdescLeft">&#160;</td><td class="mdescRight">字符串转整数  <a href="#gaec9fcea365b81f7f799ee9b9a06e4591"></a><br/></td></tr>
+<tr class="memitem:ga3175f07461dcdfbdac7075d7ee4c217d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga3175f07461dcdfbdac7075d7ee4c217d">OGE_HexToInt</a> (string sValue)</td></tr>
+<tr class="memdesc:ga3175f07461dcdfbdac7075d7ee4c217d"><td class="mdescLeft">&#160;</td><td class="mdescRight">十六进制字符串转整数  <a href="#ga3175f07461dcdfbdac7075d7ee4c217d"></a><br/></td></tr>
+<tr class="memitem:gab640e0a3d73fa7f2a68645b1d089ee33"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gab640e0a3d73fa7f2a68645b1d089ee33">OGE_FloatToStr</a> (double fValue)</td></tr>
+<tr class="memdesc:gab640e0a3d73fa7f2a68645b1d089ee33"><td class="mdescLeft">&#160;</td><td class="mdescRight">浮点转字符串  <a href="#gab640e0a3d73fa7f2a68645b1d089ee33"></a><br/></td></tr>
+<tr class="memitem:ga3eeff0c5cf0d9357ef077f70c1b0610f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga3eeff0c5cf0d9357ef077f70c1b0610f">OGE_StrToFloat</a> (string sValue)</td></tr>
+<tr class="memdesc:ga3eeff0c5cf0d9357ef077f70c1b0610f"><td class="mdescLeft">&#160;</td><td class="mdescRight">字符串转浮点数  <a href="#ga3eeff0c5cf0d9357ef077f70c1b0610f"></a><br/></td></tr>
+<tr class="memitem:ga59922a1aeb65feb7d22b349a56c0e875"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga59922a1aeb65feb7d22b349a56c0e875">OGE_TrimStr</a> (string sText)</td></tr>
+<tr class="memdesc:ga59922a1aeb65feb7d22b349a56c0e875"><td class="mdescLeft">&#160;</td><td class="mdescRight">修剪字符串，去掉字串开头和结尾的空格、制表、回车和换行符等  <a href="#ga59922a1aeb65feb7d22b349a56c0e875"></a><br/></td></tr>
+<tr class="memitem:ga9a459c32ec515781f28b8cb52cab0032"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga9a459c32ec515781f28b8cb52cab0032">OGE_GetTicks</a> ()</td></tr>
+<tr class="memdesc:ga9a459c32ec515781f28b8cb52cab0032"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得从操作系统启动到现在所经过的毫秒数  <a href="#ga9a459c32ec515781f28b8cb52cab0032"></a><br/></td></tr>
+<tr class="memitem:ga529fa7874727209299e15ff6fb828c3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga529fa7874727209299e15ff6fb828c3c">OGE_GetOS</a> ()</td></tr>
+<tr class="memdesc:ga529fa7874727209299e15ff6fb828c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前操作系统类型  <a href="#ga529fa7874727209299e15ff6fb828c3c"></a><br/></td></tr>
+<tr class="memitem:gaef4f33857349b13e1fa986354a556275"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaef4f33857349b13e1fa986354a556275">OGE_GetDateTimeStr</a> ()</td></tr>
+<tr class="memdesc:gaef4f33857349b13e1fa986354a556275"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前时间的字串形式  <a href="#gaef4f33857349b13e1fa986354a556275"></a><br/></td></tr>
+<tr class="memitem:ga26f9d663401eccd806c2c039bac13835"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga26f9d663401eccd806c2c039bac13835">OGE_GetDateTime</a> (int &amp;year, int &amp;month, int &amp;day, int &amp;hour, int &amp;min, int &amp;sec)</td></tr>
+<tr class="memdesc:ga26f9d663401eccd806c2c039bac13835"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前日期时间  <a href="#ga26f9d663401eccd806c2c039bac13835"></a><br/></td></tr>
+<tr class="memitem:gad95d310eac906fc27e7e28cb67913105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gad95d310eac906fc27e7e28cb67913105">OGE_Delay</a> (int iMilliSeconds)</td></tr>
+<tr class="memdesc:gad95d310eac906fc27e7e28cb67913105"><td class="mdescLeft">&#160;</td><td class="mdescRight">等待若干毫秒再返回  <a href="#gad95d310eac906fc27e7e28cb67913105"></a><br/></td></tr>
+<tr class="memitem:ga95a51261608057bb612327355b9f416a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga95a51261608057bb612327355b9f416a">OGE_Random</a> (int iMax)</td></tr>
+<tr class="memdesc:ga95a51261608057bb612327355b9f416a"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得在某一范围内的随机整数（大于或等于零）  <a href="#ga95a51261608057bb612327355b9f416a"></a><br/></td></tr>
+<tr class="memitem:gadd74a489e27506335d995fd2ce5a8602"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gadd74a489e27506335d995fd2ce5a8602">OGE_RandomFloat</a> ()</td></tr>
+<tr class="memdesc:gadd74a489e27506335d995fd2ce5a8602"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得一个介乎于0和1之间的随机小数  <a href="#gadd74a489e27506335d995fd2ce5a8602"></a><br/></td></tr>
+<tr class="memitem:ga7b2fc1063d0b33e0a00d84bacf5644ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga7b2fc1063d0b33e0a00d84bacf5644ef">OGE_MakeColor</a> (int iRed, int iGreen, int iBlue)</td></tr>
+<tr class="memdesc:ga7b2fc1063d0b33e0a00d84bacf5644ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">转换三原色为符合当前游戏像素格式的颜色值  <a href="#ga7b2fc1063d0b33e0a00d84bacf5644ef"></a><br/></td></tr>
+<tr class="memitem:gacc97de3bdef298e89bfa84186b604661"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gacc97de3bdef298e89bfa84186b604661">OGE_GetDefaultCharset</a> ()</td></tr>
+<tr class="memdesc:gacc97de3bdef298e89bfa84186b604661"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得游戏的缺省字符集  <a href="#gacc97de3bdef298e89bfa84186b604661"></a><br/></td></tr>
+<tr class="memitem:ga44c81f345c52c0e2347124a76ae02310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga44c81f345c52c0e2347124a76ae02310">OGE_SetDefaultCharset</a> (string sCharsetName)</td></tr>
+<tr class="memdesc:ga44c81f345c52c0e2347124a76ae02310"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置游戏的缺省字符集  <a href="#ga44c81f345c52c0e2347124a76ae02310"></a><br/></td></tr>
+<tr class="memitem:gaac68baf25caea818b6e583e21d077fb5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaac68baf25caea818b6e583e21d077fb5">OGE_GetSystemCharset</a> ()</td></tr>
+<tr class="memdesc:gaac68baf25caea818b6e583e21d077fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得操作系统所使用的字符集  <a href="#gaac68baf25caea818b6e583e21d077fb5"></a><br/></td></tr>
+<tr class="memitem:ga182a42f20306ee9332b6252fb36cdd5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga182a42f20306ee9332b6252fb36cdd5f">OGE_SetSystemCharset</a> (string sCharsetName)</td></tr>
+<tr class="memdesc:ga182a42f20306ee9332b6252fb36cdd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">把操作系统所使用的字符集名称告诉游戏引擎  <a href="#ga182a42f20306ee9332b6252fb36cdd5f"></a><br/></td></tr>
+<tr class="memitem:ga359ab7cccd7bfaed49d06249a577d1cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga359ab7cccd7bfaed49d06249a577d1cb">OGE_IsInputUnicode</a> ()</td></tr>
+<tr class="memdesc:ga359ab7cccd7bfaed49d06249a577d1cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查当前通过输入法输入的文本是不是Unicode  <a href="#ga359ab7cccd7bfaed49d06249a577d1cb"></a><br/></td></tr>
+<tr class="memitem:ga44d921e0796864f31e6d765e4f6d36de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga44d921e0796864f31e6d765e4f6d36de">OGE_StrToUnicode</a> (string sText, string sCharsetName, int iBufferId)</td></tr>
+<tr class="memdesc:ga44d921e0796864f31e6d765e4f6d36de"><td class="mdescLeft">&#160;</td><td class="mdescRight">把字符串转换成Unicode  <a href="#ga44d921e0796864f31e6d765e4f6d36de"></a><br/></td></tr>
+<tr class="memitem:gaac3753f769c97e1e1d2071cd4145a636"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaac3753f769c97e1e1d2071cd4145a636">OGE_UnicodeToStr</a> (int iUnicodeBufferId, int iBufferSize, string sCharsetName)</td></tr>
+<tr class="memdesc:gaac3753f769c97e1e1d2071cd4145a636"><td class="mdescLeft">&#160;</td><td class="mdescRight">把Unicode字符串转为普通字符串  <a href="#gaac3753f769c97e1e1d2071cd4145a636"></a><br/></td></tr>
+<tr class="memitem:gafa460a9b85b69692bddca3efba79ccda"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gafa460a9b85b69692bddca3efba79ccda">OGE_StrLen</a> (string sText)</td></tr>
+<tr class="memdesc:gafa460a9b85b69692bddca3efba79ccda"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得字符串的长度  <a href="#gafa460a9b85b69692bddca3efba79ccda"></a><br/></td></tr>
+<tr class="memitem:ga082a774b92f9d8f4791afddc6eb83211"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#ga082a774b92f9d8f4791afddc6eb83211">OGE_FindStr</a> (string sText, string sSubText, int iStartPos)</td></tr>
+<tr class="memdesc:ga082a774b92f9d8f4791afddc6eb83211"><td class="mdescLeft">&#160;</td><td class="mdescRight">在字符串中找出指定子串的位置  <a href="#ga082a774b92f9d8f4791afddc6eb83211"></a><br/></td></tr>
+<tr class="memitem:gad416fb7cce13a8e880666a8072a7634c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gad416fb7cce13a8e880666a8072a7634c">OGE_CopyStr</a> (string sText, int iStartPos, int iCount)</td></tr>
+<tr class="memdesc:gad416fb7cce13a8e880666a8072a7634c"><td class="mdescLeft">&#160;</td><td class="mdescRight">取某一字符串中的子串  <a href="#gad416fb7cce13a8e880666a8072a7634c"></a><br/></td></tr>
+<tr class="memitem:gaa389dad7dba1f32e72c582f0b28856df"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaa389dad7dba1f32e72c582f0b28856df">OGE_DeleteStr</a> (string sText, int iStartPos, int iCount)</td></tr>
+<tr class="memdesc:gaa389dad7dba1f32e72c582f0b28856df"><td class="mdescLeft">&#160;</td><td class="mdescRight">从字符串中删除一段子串  <a href="#gaa389dad7dba1f32e72c582f0b28856df"></a><br/></td></tr>
+<tr class="memitem:gaf5293dcdc028ab7b730935f09b511bf6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common.html#gaf5293dcdc028ab7b730935f09b511bf6">OGE_ReplaceStr</a> (string sText, string sOldSubText, string sNewSubText)</td></tr>
+<tr class="memdesc:gaf5293dcdc028ab7b730935f09b511bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">用新的子串替换字符串中的原有子串  <a href="#gaf5293dcdc028ab7b730935f09b511bf6"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="gad416fb7cce13a8e880666a8072a7634c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gad416fb7cce13a8e880666a8072a7634c">OGE_CopyStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStartPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取某一字符串中的子串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>某一字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPos</td><td>子串的开始位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCount</td><td>子串的长度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回子串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad95d310eac906fc27e7e28cb67913105"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___common.html#gad95d310eac906fc27e7e28cb67913105">OGE_Delay</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iMilliSeconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>等待若干毫秒再返回 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMilliSeconds</td><td>需等待的毫秒数 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa389dad7dba1f32e72c582f0b28856df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gaa389dad7dba1f32e72c582f0b28856df">OGE_DeleteStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStartPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从字符串中删除一段子串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>某一字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPos</td><td>开始删除的位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCount</td><td>要删除的子串的长度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>删除子串后的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga082a774b92f9d8f4791afddc6eb83211"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga082a774b92f9d8f4791afddc6eb83211">OGE_FindStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSubText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStartPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在字符串中找出指定子串的位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>整个字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSubText</td><td>要搜索的子字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStartPos</td><td>开始搜索的位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回子串在字符串中的位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab640e0a3d73fa7f2a68645b1d089ee33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gab640e0a3d73fa7f2a68645b1d089ee33">OGE_FloatToStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>浮点转字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fValue</td><td>待转换的浮点数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>转换后得到的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga26f9d663401eccd806c2c039bac13835"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___common.html#ga26f9d663401eccd806c2c039bac13835">OGE_GetDateTime</a> </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>year</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>month</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>day</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>sec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前日期时间 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">year</td><td>当前年 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">month</td><td>当前月 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">day</td><td>当前日 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hour</td><td>当前时 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">min</td><td>当前分 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">sec</td><td>当前秒 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>若成功则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaef4f33857349b13e1fa986354a556275"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gaef4f33857349b13e1fa986354a556275">OGE_GetDateTimeStr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前时间的字串形式 </p>
+<dl class="section return"><dt>返回:</dt><dd>返回当前时间的字串形式 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacc97de3bdef298e89bfa84186b604661"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gacc97de3bdef298e89bfa84186b604661">OGE_GetDefaultCharset</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得游戏的缺省字符集 </p>
+<dl class="section return"><dt>返回:</dt><dd>缺省字符集的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga529fa7874727209299e15ff6fb828c3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga529fa7874727209299e15ff6fb828c3c">OGE_GetOS</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前操作系统类型 </p>
+<dl class="section return"><dt>返回:</dt><dd>返回当前操作系统类型 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaac68baf25caea818b6e583e21d077fb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gaac68baf25caea818b6e583e21d077fb5">OGE_GetSystemCharset</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得操作系统所使用的字符集 </p>
+<dl class="section return"><dt>返回:</dt><dd>字符集的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9a459c32ec515781f28b8cb52cab0032"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga9a459c32ec515781f28b8cb52cab0032">OGE_GetTicks</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得从操作系统启动到现在所经过的毫秒数 </p>
+<dl class="section return"><dt>返回:</dt><dd>所经过的毫秒数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3175f07461dcdfbdac7075d7ee4c217d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga3175f07461dcdfbdac7075d7ee4c217d">OGE_HexToInt</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>十六进制字符串转整数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sValue</td><td>十六进制字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>转换后得到的整数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab6453b5da179444580e135dd9969e0d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gab6453b5da179444580e135dd9969e0d4">OGE_IntToStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>整数转字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iValue</td><td>待转换的整数值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>转换后得到的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga359ab7cccd7bfaed49d06249a577d1cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___common.html#ga359ab7cccd7bfaed49d06249a577d1cb">OGE_IsInputUnicode</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查当前通过输入法输入的文本是不是Unicode </p>
+<dl class="section return"><dt>返回:</dt><dd>如果是Unicode则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7b2fc1063d0b33e0a00d84bacf5644ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga7b2fc1063d0b33e0a00d84bacf5644ef">OGE_MakeColor</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iRed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGreen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iBlue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>转换三原色为符合当前游戏像素格式的颜色值 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iRed</td><td>红色分量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGreen</td><td>绿色分量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBlue</td><td>蓝色分量 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回符合当前游戏色深格式的颜色值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf28b89a8c756ef0deced11230ea87847"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___common.html#gaf28b89a8c756ef0deced11230ea87847">OGE_Print</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把字符串输出到控制台 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sInfo</td><td>所输出的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga95a51261608057bb612327355b9f416a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga95a51261608057bb612327355b9f416a">OGE_Random</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iMax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得在某一范围内的随机整数（大于或等于零） </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iMax</td><td>随机数的最大值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回一个介乎于0和最大值之间的随机整数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gadd74a489e27506335d995fd2ce5a8602"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="group___common.html#gadd74a489e27506335d995fd2ce5a8602">OGE_RandomFloat</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得一个介乎于0和1之间的随机小数 </p>
+<dl class="section return"><dt>返回:</dt><dd>返回一随机纯小数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf5293dcdc028ab7b730935f09b511bf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gaf5293dcdc028ab7b730935f09b511bf6">OGE_ReplaceStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sOldSubText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sNewSubText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>用新的子串替换字符串中的原有子串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>某一字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sOldSubText</td><td>要替换的子串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sNewSubText</td><td>用于替换原有子串的新子串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>替换了子串以后的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga44c81f345c52c0e2347124a76ae02310"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___common.html#ga44c81f345c52c0e2347124a76ae02310">OGE_SetDefaultCharset</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sCharsetName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置游戏的缺省字符集 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sCharsetName</td><td>缺省字符集的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga182a42f20306ee9332b6252fb36cdd5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___common.html#ga182a42f20306ee9332b6252fb36cdd5f">OGE_SetSystemCharset</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sCharsetName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把操作系统所使用的字符集名称告诉游戏引擎 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sCharsetName</td><td>字符集名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gafa460a9b85b69692bddca3efba79ccda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#gafa460a9b85b69692bddca3efba79ccda">OGE_StrLen</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得字符串的长度 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>某一字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>改字符串的长度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3eeff0c5cf0d9357ef077f70c1b0610f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="group___common.html#ga3eeff0c5cf0d9357ef077f70c1b0610f">OGE_StrToFloat</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>字符串转浮点数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sValue</td><td>待转换的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>转换后得到的浮点数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaec9fcea365b81f7f799ee9b9a06e4591"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#gaec9fcea365b81f7f799ee9b9a06e4591">OGE_StrToInt</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>字符串转整数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sValue</td><td>待转换的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>转换后得到的整数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga44d921e0796864f31e6d765e4f6d36de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___common.html#ga44d921e0796864f31e6d765e4f6d36de">OGE_StrToUnicode</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sCharsetName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iBufferId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把字符串转换成Unicode </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>待转换的字符串 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sCharsetName</td><td>字符串所使用的字符集名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBufferId</td><td>生成的Unicode将会保存到的缓冲区的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果转换成功则返回Unicode字符串的长度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga59922a1aeb65feb7d22b349a56c0e875"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#ga59922a1aeb65feb7d22b349a56c0e875">OGE_TrimStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>修剪字符串，去掉字串开头和结尾的空格、制表、回车和换行符等 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>待修剪的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>修剪后的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaac3753f769c97e1e1d2071cd4145a636"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___common.html#gaac3753f769c97e1e1d2071cd4145a636">OGE_UnicodeToStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iUnicodeBufferId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iBufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sCharsetName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把Unicode字符串转为普通字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iUnicodeBufferId</td><td>放置Unicode字符串的缓冲区的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iBufferSize</td><td>缓冲区的大小 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sCharsetName</td><td>所转换成的普通字符串所使用的字符集名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回使用指定字符集的普通字符串 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

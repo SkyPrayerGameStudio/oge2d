@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Screen</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Screen</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga33c7dc79d56c67fb783747e3855316be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga33c7dc79d56c67fb783747e3855316be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga33c7dc79d56c67fb783747e3855316be">OGE_Screenshot</a> ()</td></tr>
+<tr class="memdesc:ga33c7dc79d56c67fb783747e3855316be"><td class="mdescLeft">&#160;</td><td class="mdescRight">截屏，把当前的游戏画面复制到图像中 <br/></td></tr>
+<tr class="memitem:ga11e05ae8863db013223dae19c1202d66"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga11e05ae8863db013223dae19c1202d66">OGE_GetLastScreenshot</a> ()</td></tr>
+<tr class="memdesc:ga11e05ae8863db013223dae19c1202d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得最近一次截屏的图像ID  <a href="#ga11e05ae8863db013223dae19c1202d66"></a><br/></td></tr>
+<tr class="memitem:ga1eb04a3314360576a70780beb6c662ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga1eb04a3314360576a70780beb6c662ba">OGE_GetScreenImage</a> ()</td></tr>
+<tr class="memdesc:ga1eb04a3314360576a70780beb6c662ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前游戏画面的图像ID  <a href="#ga1eb04a3314360576a70780beb6c662ba"></a><br/></td></tr>
+<tr class="memitem:ga22c67bc1051a7dbbb93ca68024902986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga22c67bc1051a7dbbb93ca68024902986">OGE_ShowFPS</a> (bool bShow)</td></tr>
+<tr class="memdesc:ga22c67bc1051a7dbbb93ca68024902986"><td class="mdescLeft">&#160;</td><td class="mdescRight">在屏幕中显示或隐藏帧速  <a href="#ga22c67bc1051a7dbbb93ca68024902986"></a><br/></td></tr>
+<tr class="memitem:gaf59ee1217eb22201700a463afe60eeef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gaf59ee1217eb22201700a463afe60eeef">OGE_LockFPS</a> (int iFPS)</td></tr>
+<tr class="memdesc:gaf59ee1217eb22201700a463afe60eeef"><td class="mdescLeft">&#160;</td><td class="mdescRight">锁定帧速  <a href="#gaf59ee1217eb22201700a463afe60eeef"></a><br/></td></tr>
+<tr class="memitem:gafe2525d4ff3de5343ee63809fc72de49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gafe2525d4ff3de5343ee63809fc72de49">OGE_GetFPS</a> ()</td></tr>
+<tr class="memdesc:gafe2525d4ff3de5343ee63809fc72de49"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前的帧速  <a href="#gafe2525d4ff3de5343ee63809fc72de49"></a><br/></td></tr>
+<tr class="memitem:ga1c9d6834d7efb2868574c0d1da7132ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga1c9d6834d7efb2868574c0d1da7132ac">OGE_GetLockedFPS</a> ()</td></tr>
+<tr class="memdesc:ga1c9d6834d7efb2868574c0d1da7132ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得你想锁定的帧速  <a href="#ga1c9d6834d7efb2868574c0d1da7132ac"></a><br/></td></tr>
+<tr class="memitem:ga127cb5092b94749411c414362b8015d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga127cb5092b94749411c414362b8015d6">OGE_ShowMousePos</a> (bool bShow)</td></tr>
+<tr class="memdesc:ga127cb5092b94749411c414362b8015d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">在屏幕上显示或隐藏鼠标的位置  <a href="#ga127cb5092b94749411c414362b8015d6"></a><br/></td></tr>
+<tr class="memitem:gadc48ec08996f6c721cecc96cd4d2da79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gadc48ec08996f6c721cecc96cd4d2da79">OGE_SetDirtyRectMode</a> (bool bValue)</td></tr>
+<tr class="memdesc:gadc48ec08996f6c721cecc96cd4d2da79"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否为脏矩形模式  <a href="#gadc48ec08996f6c721cecc96cd4d2da79"></a><br/></td></tr>
+<tr class="memitem:gaa227907bc8c9e6a12de5fb11c068b796"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gaa227907bc8c9e6a12de5fb11c068b796">OGE_Scroll</a> (int iIncX, int iIncY)</td></tr>
+<tr class="memdesc:gaa227907bc8c9e6a12de5fb11c068b796"><td class="mdescLeft">&#160;</td><td class="mdescRight">滚动屏幕  <a href="#gaa227907bc8c9e6a12de5fb11c068b796"></a><br/></td></tr>
+<tr class="memitem:ga78c8eda8317c20be1b41ec0cb33a9563"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga78c8eda8317c20be1b41ec0cb33a9563">OGE_SetViewPos</a> (int iLeft, int iTop)</td></tr>
+<tr class="memdesc:ga78c8eda8317c20be1b41ec0cb33a9563"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置视口的位置  <a href="#ga78c8eda8317c20be1b41ec0cb33a9563"></a><br/></td></tr>
+<tr class="memitem:ga036dbf3ab9addc45607b822ca8a1e543"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga036dbf3ab9addc45607b822ca8a1e543">OGE_GetViewPosX</a> ()</td></tr>
+<tr class="memdesc:ga036dbf3ab9addc45607b822ca8a1e543"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得视口位置的横坐标  <a href="#ga036dbf3ab9addc45607b822ca8a1e543"></a><br/></td></tr>
+<tr class="memitem:gaac44418460e82880f0706e7879d90b2c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gaac44418460e82880f0706e7879d90b2c">OGE_GetViewPosY</a> ()</td></tr>
+<tr class="memdesc:gaac44418460e82880f0706e7879d90b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得视口位置的纵坐标  <a href="#gaac44418460e82880f0706e7879d90b2c"></a><br/></td></tr>
+<tr class="memitem:gaa13d8a0a2506e864d999c926a86255ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gaa13d8a0a2506e864d999c926a86255ff">OGE_GetViewWidth</a> ()</td></tr>
+<tr class="memdesc:gaa13d8a0a2506e864d999c926a86255ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得视口的宽度  <a href="#gaa13d8a0a2506e864d999c926a86255ff"></a><br/></td></tr>
+<tr class="memitem:ga9ad92950e71c590d2775e17c2c5a159a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga9ad92950e71c590d2775e17c2c5a159a">OGE_GetViewHeight</a> ()</td></tr>
+<tr class="memdesc:ga9ad92950e71c590d2775e17c2c5a159a"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得视口的高度  <a href="#ga9ad92950e71c590d2775e17c2c5a159a"></a><br/></td></tr>
+<tr class="memitem:ga2c6c48c6e85b927bd26709f7d80915ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2c6c48c6e85b927bd26709f7d80915ac"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga2c6c48c6e85b927bd26709f7d80915ac">OGE_StopAutoScroll</a> ()</td></tr>
+<tr class="memdesc:ga2c6c48c6e85b927bd26709f7d80915ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">停止自动滚屏 <br/></td></tr>
+<tr class="memitem:ga199375f6c3a6bf2c0b6e252176a5e4d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga199375f6c3a6bf2c0b6e252176a5e4d5">OGE_StartAutoScroll</a> (int iStepX, int iStepY, int iInterval, bool bLoop)</td></tr>
+<tr class="memdesc:ga199375f6c3a6bf2c0b6e252176a5e4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">开始自动滚屏  <a href="#ga199375f6c3a6bf2c0b6e252176a5e4d5"></a><br/></td></tr>
+<tr class="memitem:gac1d498c3d4575ccfb1ddee60f6edcf1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gac1d498c3d4575ccfb1ddee60f6edcf1d">OGE_SetAutoScrollSpeed</a> (int iStepX, int iStepY, int iInterval)</td></tr>
+<tr class="memdesc:gac1d498c3d4575ccfb1ddee60f6edcf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置滚屏速度  <a href="#gac1d498c3d4575ccfb1ddee60f6edcf1d"></a><br/></td></tr>
+<tr class="memitem:gaa712005723282e6abe5f79c348c21865"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#gaa712005723282e6abe5f79c348c21865">OGE_SetScrollTarget</a> (int iTargetX, int iTargetY)</td></tr>
+<tr class="memdesc:gaa712005723282e6abe5f79c348c21865"><td class="mdescLeft">&#160;</td><td class="mdescRight">为自动滚屏设定目标位置  <a href="#gaa712005723282e6abe5f79c348c21865"></a><br/></td></tr>
+<tr class="memitem:ga269952e51973bc32e0f7837c49035383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga269952e51973bc32e0f7837c49035383">OGE_ShowMouseCursor</a> (bool bShow)</td></tr>
+<tr class="memdesc:ga269952e51973bc32e0f7837c49035383"><td class="mdescLeft">&#160;</td><td class="mdescRight">在屏幕上显示或隐藏系统鼠标光标  <a href="#ga269952e51973bc32e0f7837c49035383"></a><br/></td></tr>
+<tr class="memitem:ga09e1e79a039b88320b5aeff9938c21a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga09e1e79a039b88320b5aeff9938c21a8">OGE_GetFullScreen</a> ()</td></tr>
+<tr class="memdesc:ga09e1e79a039b88320b5aeff9938c21a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查游戏是否在全屏模式下跑  <a href="#ga09e1e79a039b88320b5aeff9938c21a8"></a><br/></td></tr>
+<tr class="memitem:ga4d3ae13b0a315d2db48a376ceadb3300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___screen.html#ga4d3ae13b0a315d2db48a376ceadb3300">OGE_SetFullScreen</a> (bool bValue)</td></tr>
+<tr class="memdesc:ga4d3ae13b0a315d2db48a376ceadb3300"><td class="mdescLeft">&#160;</td><td class="mdescRight">为游戏设置全屏或窗口模式  <a href="#ga4d3ae13b0a315d2db48a376ceadb3300"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="gafe2525d4ff3de5343ee63809fc72de49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#gafe2525d4ff3de5343ee63809fc72de49">OGE_GetFPS</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前的帧速 </p>
+<dl class="section return"><dt>返回:</dt><dd>当前帧速 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga09e1e79a039b88320b5aeff9938c21a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___screen.html#ga09e1e79a039b88320b5aeff9938c21a8">OGE_GetFullScreen</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查游戏是否在全屏模式下跑 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果游戏是在全屏模式下跑，则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga11e05ae8863db013223dae19c1202d66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#ga11e05ae8863db013223dae19c1202d66">OGE_GetLastScreenshot</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得最近一次截屏的图像ID </p>
+<dl class="section return"><dt>返回:</dt><dd>保存截屏画面的图像ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1c9d6834d7efb2868574c0d1da7132ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#ga1c9d6834d7efb2868574c0d1da7132ac">OGE_GetLockedFPS</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得你想锁定的帧速 </p>
+<dl class="section return"><dt>返回:</dt><dd>你想锁定的帧速 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1eb04a3314360576a70780beb6c662ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#ga1eb04a3314360576a70780beb6c662ba">OGE_GetScreenImage</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前游戏画面的图像ID </p>
+<dl class="section return"><dt>返回:</dt><dd>游戏画面的图像ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9ad92950e71c590d2775e17c2c5a159a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#ga9ad92950e71c590d2775e17c2c5a159a">OGE_GetViewHeight</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得视口的高度 </p>
+<dl class="section return"><dt>返回:</dt><dd>视口的高度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga036dbf3ab9addc45607b822ca8a1e543"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#ga036dbf3ab9addc45607b822ca8a1e543">OGE_GetViewPosX</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得视口位置的横坐标 </p>
+<dl class="section return"><dt>返回:</dt><dd>视口位置的横坐标 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaac44418460e82880f0706e7879d90b2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#gaac44418460e82880f0706e7879d90b2c">OGE_GetViewPosY</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得视口位置的纵坐标 </p>
+<dl class="section return"><dt>返回:</dt><dd>视口位置的纵坐标 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa13d8a0a2506e864d999c926a86255ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___screen.html#gaa13d8a0a2506e864d999c926a86255ff">OGE_GetViewWidth</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得视口的宽度 </p>
+<dl class="section return"><dt>返回:</dt><dd>视口的宽度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf59ee1217eb22201700a463afe60eeef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#gaf59ee1217eb22201700a463afe60eeef">OGE_LockFPS</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iFPS</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>锁定帧速 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iFPS</td><td>想要锁定的帧速 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa227907bc8c9e6a12de5fb11c068b796"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#gaa227907bc8c9e6a12de5fb11c068b796">OGE_Scroll</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIncX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIncY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>滚动屏幕 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIncX</td><td>沿X轴方向滚动的位移量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIncY</td><td>沿Y轴方向滚动的位移量 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gac1d498c3d4575ccfb1ddee60f6edcf1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#gac1d498c3d4575ccfb1ddee60f6edcf1d">OGE_SetAutoScrollSpeed</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iInterval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置滚屏速度 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepX</td><td>沿X轴方向的滚动步长（越大越快） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepY</td><td>沿Y轴方向的滚动步长（越大越快） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInterval</td><td>滚动间隔（越小越快） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gadc48ec08996f6c721cecc96cd4d2da79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#gadc48ec08996f6c721cecc96cd4d2da79">OGE_SetDirtyRectMode</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置是否为脏矩形模式 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bValue</td><td>为真则使用脏矩形模式，否则不使用 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4d3ae13b0a315d2db48a376ceadb3300"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga4d3ae13b0a315d2db48a376ceadb3300">OGE_SetFullScreen</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>为游戏设置全屏或窗口模式 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bValue</td><td>是否使用全屏模式 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa712005723282e6abe5f79c348c21865"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#gaa712005723282e6abe5f79c348c21865">OGE_SetScrollTarget</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iTargetX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iTargetY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>为自动滚屏设定目标位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTargetX</td><td>目标位置的横坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTargetY</td><td>目标位置的纵坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga78c8eda8317c20be1b41ec0cb33a9563"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga78c8eda8317c20be1b41ec0cb33a9563">OGE_SetViewPos</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iTop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置视口的位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLeft</td><td>视口位置的横坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iTop</td><td>视口位置的纵坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga22c67bc1051a7dbbb93ca68024902986"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga22c67bc1051a7dbbb93ca68024902986">OGE_ShowFPS</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bShow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在屏幕中显示或隐藏帧速 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bShow</td><td>为真则显示帧速，否则隐藏帧速 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga269952e51973bc32e0f7837c49035383"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga269952e51973bc32e0f7837c49035383">OGE_ShowMouseCursor</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bShow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在屏幕上显示或隐藏系统鼠标光标 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bShow</td><td>如果为真则显示，否则隐藏 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga127cb5092b94749411c414362b8015d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga127cb5092b94749411c414362b8015d6">OGE_ShowMousePos</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bShow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在屏幕上显示或隐藏鼠标的位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bShow</td><td>为真是显示鼠标位置，否则就隐藏起来 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga199375f6c3a6bf2c0b6e252176a5e4d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___screen.html#ga199375f6c3a6bf2c0b6e252176a5e4d5">OGE_StartAutoScroll</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iInterval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bLoop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>开始自动滚屏 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepX</td><td>横坐标滚动步长 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepY</td><td>纵坐标滚动步长 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInterval</td><td>滚动间隔 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bLoop</td><td>是否使用自动循环回滚 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

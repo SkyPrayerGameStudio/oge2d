@@ -1,0 +1,1728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Scene</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Scene</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga6976f7114b752ab457cba93867b1767f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga6976f7114b752ab457cba93867b1767f">OGE_FreezeSprites</a> (bool bValue)</td></tr>
+<tr class="memdesc:ga6976f7114b752ab457cba93867b1767f"><td class="mdescLeft">&#160;</td><td class="mdescRight">冻结或重新激活当前场景中的NPC精灵和玩家精灵  <a href="#ga6976f7114b752ab457cba93867b1767f"></a><br/></td></tr>
+<tr class="memitem:ga4c02ef7def0b3d416e2a3b86af556f63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga4c02ef7def0b3d416e2a3b86af556f63">OGE_SetSceneMap</a> (int iSceneId, string sNewMap, int iNewLeft, int iNewTop)</td></tr>
+<tr class="memdesc:ga4c02ef7def0b3d416e2a3b86af556f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景地图  <a href="#ga4c02ef7def0b3d416e2a3b86af556f63"></a><br/></td></tr>
+<tr class="memitem:ga6478f756014aff376e7fd28d99d3397b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga6478f756014aff376e7fd28d99d3397b">OGE_FindSceneSpr</a> (int iSceneId, string sSprName)</td></tr>
+<tr class="memdesc:ga6478f756014aff376e7fd28d99d3397b"><td class="mdescLeft">&#160;</td><td class="mdescRight">通过名称在场景中找出指定的精灵  <a href="#ga6478f756014aff376e7fd28d99d3397b"></a><br/></td></tr>
+<tr class="memitem:ga6508e7da76589ff4473c8be01ae12898"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga6508e7da76589ff4473c8be01ae12898">OGE_GetFocusSpr</a> ()</td></tr>
+<tr class="memdesc:ga6508e7da76589ff4473c8be01ae12898"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的获得焦点的精灵  <a href="#ga6508e7da76589ff4473c8be01ae12898"></a><br/></td></tr>
+<tr class="memitem:ga69d2961519cc5b1a82ccf4746235fe42"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga69d2961519cc5b1a82ccf4746235fe42">OGE_GetModalSpr</a> ()</td></tr>
+<tr class="memdesc:ga69d2961519cc5b1a82ccf4746235fe42"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的模态精灵  <a href="#ga69d2961519cc5b1a82ccf4746235fe42"></a><br/></td></tr>
+<tr class="memitem:gaccdbbd0ad8f354f70da78722a6b4ca7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaccdbbd0ad8f354f70da78722a6b4ca7a">OGE_SetFocusSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:gaccdbbd0ad8f354f70da78722a6b4ca7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景中获得焦点的精灵  <a href="#gaccdbbd0ad8f354f70da78722a6b4ca7a"></a><br/></td></tr>
+<tr class="memitem:ga671c1980e3c956afb34a58ed799ff9b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga671c1980e3c956afb34a58ed799ff9b3">OGE_SetModalSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga671c1980e3c956afb34a58ed799ff9b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景中的模态精灵  <a href="#ga671c1980e3c956afb34a58ed799ff9b3"></a><br/></td></tr>
+<tr class="memitem:gac67030aecafd70000853cab3de8919c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gac67030aecafd70000853cab3de8919c6">OGE_GetMouseSpr</a> ()</td></tr>
+<tr class="memdesc:gac67030aecafd70000853cab3de8919c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的鼠标精灵  <a href="#gac67030aecafd70000853cab3de8919c6"></a><br/></td></tr>
+<tr class="memitem:gaa78e357626b7600c97676d8a8f542ac2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaa78e357626b7600c97676d8a8f542ac2">OGE_SetMouseSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:gaa78e357626b7600c97676d8a8f542ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景的鼠标精灵  <a href="#gaa78e357626b7600c97676d8a8f542ac2"></a><br/></td></tr>
+<tr class="memitem:ga39903ee246173e81611ff2863992b98f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga39903ee246173e81611ff2863992b98f">OGE_GetFirstSpr</a> ()</td></tr>
+<tr class="memdesc:ga39903ee246173e81611ff2863992b98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的首精灵  <a href="#ga39903ee246173e81611ff2863992b98f"></a><br/></td></tr>
+<tr class="memitem:ga51b9e449a28e3902b59f080bb79abd89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga51b9e449a28e3902b59f080bb79abd89">OGE_SetFirstSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga51b9e449a28e3902b59f080bb79abd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景中的首精灵  <a href="#ga51b9e449a28e3902b59f080bb79abd89"></a><br/></td></tr>
+<tr class="memitem:gab8e486aaa6f5571a2d29c6684949448c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gab8e486aaa6f5571a2d29c6684949448c">OGE_GetLastSpr</a> ()</td></tr>
+<tr class="memdesc:gab8e486aaa6f5571a2d29c6684949448c"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的末精灵  <a href="#gab8e486aaa6f5571a2d29c6684949448c"></a><br/></td></tr>
+<tr class="memitem:ga5b8c62ea38ddc5473d0e0fc516353943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga5b8c62ea38ddc5473d0e0fc516353943">OGE_SetLastSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga5b8c62ea38ddc5473d0e0fc516353943"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景中的末精灵  <a href="#ga5b8c62ea38ddc5473d0e0fc516353943"></a><br/></td></tr>
+<tr class="memitem:gad0b39a20b6eaad7b36d5138d583860b6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad0b39a20b6eaad7b36d5138d583860b6">OGE_GetProxySpr</a> ()</td></tr>
+<tr class="memdesc:gad0b39a20b6eaad7b36d5138d583860b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的代理精灵  <a href="#gad0b39a20b6eaad7b36d5138d583860b6"></a><br/></td></tr>
+<tr class="memitem:ga793a689dcc4586df2a700cf99b7e0a1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga793a689dcc4586df2a700cf99b7e0a1e">OGE_SetProxySpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga793a689dcc4586df2a700cf99b7e0a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景的代理精灵  <a href="#ga793a689dcc4586df2a700cf99b7e0a1e"></a><br/></td></tr>
+<tr class="memitem:gab744a20d22ad62d283917bd56e1d2c53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gab744a20d22ad62d283917bd56e1d2c53">OGE_GetTopZ</a> ()</td></tr>
+<tr class="memdesc:gab744a20d22ad62d283917bd56e1d2c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中最大的Z轴坐标值  <a href="#gab744a20d22ad62d283917bd56e1d2c53"></a><br/></td></tr>
+<tr class="memitem:gad6604a01a2cb80f8eb559a16278c47fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad6604a01a2cb80f8eb559a16278c47fb">OGE_BringSprToTop</a> (int iSprId)</td></tr>
+<tr class="memdesc:gad6604a01a2cb80f8eb559a16278c47fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">把精灵提到当前场景的最顶层  <a href="#gad6604a01a2cb80f8eb559a16278c47fb"></a><br/></td></tr>
+<tr class="memitem:ga7178058fabd27fc2e21a84b7e7f99f5f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga7178058fabd27fc2e21a84b7e7f99f5f">OGE_GetSceneSpr</a> (int idx)</td></tr>
+<tr class="memdesc:ga7178058fabd27fc2e21a84b7e7f99f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得当前场景中的指定精灵  <a href="#ga7178058fabd27fc2e21a84b7e7f99f5f"></a><br/></td></tr>
+<tr class="memitem:gaab5cbe2008b9476d36d873b56b00479a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaab5cbe2008b9476d36d873b56b00479a">OGE_GetDefaultPlayerSpr</a> ()</td></tr>
+<tr class="memdesc:gaab5cbe2008b9476d36d873b56b00479a"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景中的默认玩家精灵  <a href="#gaab5cbe2008b9476d36d873b56b00479a"></a><br/></td></tr>
+<tr class="memitem:ga3f89c283bef4a9fb3aae51942b47cee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga3f89c283bef4a9fb3aae51942b47cee8">OGE_SetDefaultPlayerSpr</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga3f89c283bef4a9fb3aae51942b47cee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景的默认玩家精灵  <a href="#ga3f89c283bef4a9fb3aae51942b47cee8"></a><br/></td></tr>
+<tr class="memitem:gac09aa9c5633a3c5694543e4062ffd8d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gac09aa9c5633a3c5694543e4062ffd8d0">OGE_GetSceneLightMap</a> (int iSceneId)</td></tr>
+<tr class="memdesc:gac09aa9c5633a3c5694543e4062ffd8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景的光图  <a href="#gac09aa9c5633a3c5694543e4062ffd8d0"></a><br/></td></tr>
+<tr class="memitem:ga195e05b4d33b23513129f80c0888e44c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga195e05b4d33b23513129f80c0888e44c">OGE_SetSceneLightMap</a> (int iSceneId, int iImageId, int iLightMode)</td></tr>
+<tr class="memdesc:ga195e05b4d33b23513129f80c0888e44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景的光图  <a href="#ga195e05b4d33b23513129f80c0888e44c"></a><br/></td></tr>
+<tr class="memitem:gac9ca4167bda3bcb96768ab76e866ad27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gac9ca4167bda3bcb96768ab76e866ad27">OGE_OpenSceneTimer</a> (int iInterval)</td></tr>
+<tr class="memdesc:gac9ca4167bda3bcb96768ab76e866ad27"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动当前场景自带的计时器  <a href="#gac9ca4167bda3bcb96768ab76e866ad27"></a><br/></td></tr>
+<tr class="memitem:gafef77c8673ffb929db89ad2b0c2254e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafef77c8673ffb929db89ad2b0c2254e3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gafef77c8673ffb929db89ad2b0c2254e3">OGE_CloseSceneTimer</a> ()</td></tr>
+<tr class="memdesc:gafef77c8673ffb929db89ad2b0c2254e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">关闭当前场景自带的计时器 <br/></td></tr>
+<tr class="memitem:ga48c27ba9777153168f0966a2782d45b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga48c27ba9777153168f0966a2782d45b8">OGE_GetSceneTimerInterval</a> ()</td></tr>
+<tr class="memdesc:ga48c27ba9777153168f0966a2782d45b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景自带的计时器的计时间隔  <a href="#ga48c27ba9777153168f0966a2782d45b8"></a><br/></td></tr>
+<tr class="memitem:ga4d3bc88c9696012365a11aa4c2c095c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga4d3bc88c9696012365a11aa4c2c095c1">OGE_IsSceneTimerWaiting</a> ()</td></tr>
+<tr class="memdesc:ga4d3bc88c9696012365a11aa4c2c095c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查当前场景自带的计时器是否正在计时  <a href="#ga4d3bc88c9696012365a11aa4c2c095c1"></a><br/></td></tr>
+<tr class="memitem:ga3aaaac9f2ce975f20cb1d73a00bf56d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga3aaaac9f2ce975f20cb1d73a00bf56d3">OGE_GetScenePlot</a> ()</td></tr>
+<tr class="memdesc:ga3aaaac9f2ce975f20cb1d73a00bf56d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景的剧情精灵的ID  <a href="#ga3aaaac9f2ce975f20cb1d73a00bf56d3"></a><br/></td></tr>
+<tr class="memitem:gaa83b4c46940285547a18c625a74a91f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaa83b4c46940285547a18c625a74a91f6">OGE_GetSceneCustomData</a> (int iSceneId)</td></tr>
+<tr class="memdesc:gaa83b4c46940285547a18c625a74a91f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景的自定义数据  <a href="#gaa83b4c46940285547a18c625a74a91f6"></a><br/></td></tr>
+<tr class="memitem:ga2a95cbb87b1ebe7556c585303f17f365"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga2a95cbb87b1ebe7556c585303f17f365">OGE_SetSceneCustomData</a> (int iSceneId, int iGameDataId, bool bOwnIt)</td></tr>
+<tr class="memdesc:ga2a95cbb87b1ebe7556c585303f17f365"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景的自定义数据  <a href="#ga2a95cbb87b1ebe7556c585303f17f365"></a><br/></td></tr>
+<tr class="memitem:ga38df04ba13d0618ae74663fe2451d356"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga38df04ba13d0618ae74663fe2451d356">OGE_SetSceneBgMusic</a> (int iSceneId, string sMusicName)</td></tr>
+<tr class="memdesc:ga38df04ba13d0618ae74663fe2451d356"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前场景的背景音乐  <a href="#ga38df04ba13d0618ae74663fe2451d356"></a><br/></td></tr>
+<tr class="memitem:gad6a6399a13b664f856984ed8d7588617"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad6a6399a13b664f856984ed8d7588617">OGE_PlayBgMusic</a> (int iLoopTimes)</td></tr>
+<tr class="memdesc:gad6a6399a13b664f856984ed8d7588617"><td class="mdescLeft">&#160;</td><td class="mdescRight">播放背景音乐  <a href="#gad6a6399a13b664f856984ed8d7588617"></a><br/></td></tr>
+<tr class="memitem:ga9323b82d4ccc78377f7d66c58cd5acb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga9323b82d4ccc78377f7d66c58cd5acb4">OGE_GetSceneSprCount</a> (int iSceneId, int iState)</td></tr>
+<tr class="memdesc:ga9323b82d4ccc78377f7d66c58cd5acb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景中所有在指定状态下的精灵的总数  <a href="#ga9323b82d4ccc78377f7d66c58cd5acb4"></a><br/></td></tr>
+<tr class="memitem:ga8a825c3a347db76310494048bff9573e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga8a825c3a347db76310494048bff9573e">OGE_GetSceneSprByIndex</a> (int iSceneId, int iIndex, int iState)</td></tr>
+<tr class="memdesc:ga8a825c3a347db76310494048bff9573e"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得场景中在指定状态下的某一精灵  <a href="#ga8a825c3a347db76310494048bff9573e"></a><br/></td></tr>
+<tr class="memitem:gadc5a49b989ab824243c7102f3d2dceba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gadc5a49b989ab824243c7102f3d2dceba">OGE_GetSceneCount</a> ()</td></tr>
+<tr class="memdesc:gadc5a49b989ab824243c7102f3d2dceba"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得所有场景的总数  <a href="#gadc5a49b989ab824243c7102f3d2dceba"></a><br/></td></tr>
+<tr class="memitem:ga0c0f3b32a1aad66608e1e36f9629351d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga0c0f3b32a1aad66608e1e36f9629351d">OGE_GetSceneByIndex</a> (int iIndex)</td></tr>
+<tr class="memdesc:ga0c0f3b32a1aad66608e1e36f9629351d"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得场景  <a href="#ga0c0f3b32a1aad66608e1e36f9629351d"></a><br/></td></tr>
+<tr class="memitem:ga699ae52fa15b9536ffc66ab0a5c66715"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga699ae52fa15b9536ffc66ab0a5c66715">OGE_GetSprForScene</a> (int iSceneId, string sSprName, string sClassName)</td></tr>
+<tr class="memdesc:ga699ae52fa15b9536ffc66ab0a5c66715"><td class="mdescLeft">&#160;</td><td class="mdescRight">用指定的模板来创建一个精灵，并加入到场景中  <a href="#ga699ae52fa15b9536ffc66ab0a5c66715"></a><br/></td></tr>
+<tr class="memitem:gad8e149b5223efc0718d501d245b48080"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad8e149b5223efc0718d501d245b48080">OGE_RemoveSprFromScene</a> (int iSceneId, int iSprId)</td></tr>
+<tr class="memdesc:gad8e149b5223efc0718d501d245b48080"><td class="mdescLeft">&#160;</td><td class="mdescRight">从场景中移除一个精灵  <a href="#gad8e149b5223efc0718d501d245b48080"></a><br/></td></tr>
+<tr class="memitem:ga7f48eac745ed5f63deb15fab353534ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga7f48eac745ed5f63deb15fab353534ab">OGE_RemoveScene</a> (string sName)</td></tr>
+<tr class="memdesc:ga7f48eac745ed5f63deb15fab353534ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">移除一个场景  <a href="#ga7f48eac745ed5f63deb15fab353534ab"></a><br/></td></tr>
+<tr class="memitem:ga7a22d92102e7853f802a9f9b1cbbcfa7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga7a22d92102e7853f802a9f9b1cbbcfa7">OGE_GetScene</a> ()</td></tr>
+<tr class="memdesc:ga7a22d92102e7853f802a9f9b1cbbcfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前场景  <a href="#ga7a22d92102e7853f802a9f9b1cbbcfa7"></a><br/></td></tr>
+<tr class="memitem:ga5d8d740fd3e8cebb12186f43b051b49b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga5d8d740fd3e8cebb12186f43b051b49b">OGE_GetActiveScene</a> ()</td></tr>
+<tr class="memdesc:ga5d8d740fd3e8cebb12186f43b051b49b"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前活动的场景  <a href="#ga5d8d740fd3e8cebb12186f43b051b49b"></a><br/></td></tr>
+<tr class="memitem:gac1cd8637f7f8b9dc46a3e867cbd48d2a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gac1cd8637f7f8b9dc46a3e867cbd48d2a">OGE_GetLastActiveScene</a> ()</td></tr>
+<tr class="memdesc:gac1cd8637f7f8b9dc46a3e867cbd48d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得上一个活动的场景  <a href="#gac1cd8637f7f8b9dc46a3e867cbd48d2a"></a><br/></td></tr>
+<tr class="memitem:gadeee403d205b76d6dc6c69c331f6fdd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gadeee403d205b76d6dc6c69c331f6fdd3">OGE_GetNextActiveScene</a> ()</td></tr>
+<tr class="memdesc:gadeee403d205b76d6dc6c69c331f6fdd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得下一个活动的场景  <a href="#gadeee403d205b76d6dc6c69c331f6fdd3"></a><br/></td></tr>
+<tr class="memitem:ga658b4231cc62bb19235c8a96d4aa131c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga658b4231cc62bb19235c8a96d4aa131c">OGE_GetSceneByName</a> (string sSceneName)</td></tr>
+<tr class="memdesc:ga658b4231cc62bb19235c8a96d4aa131c"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据名称取得场景  <a href="#ga658b4231cc62bb19235c8a96d4aa131c"></a><br/></td></tr>
+<tr class="memitem:ga62efcfc774e2603ec5e57f37d760c9af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga62efcfc774e2603ec5e57f37d760c9af">OGE_FindScene</a> (string sSceneName)</td></tr>
+<tr class="memdesc:ga62efcfc774e2603ec5e57f37d760c9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据名称找出场景  <a href="#ga62efcfc774e2603ec5e57f37d760c9af"></a><br/></td></tr>
+<tr class="memitem:gaa4ab49c1f7354cd7c54b48b85a190ba2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaa4ab49c1f7354cd7c54b48b85a190ba2">OGE_GetSceneName</a> (int iSceneId)</td></tr>
+<tr class="memdesc:gaa4ab49c1f7354cd7c54b48b85a190ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景的名称  <a href="#gaa4ab49c1f7354cd7c54b48b85a190ba2"></a><br/></td></tr>
+<tr class="memitem:ga04758b9c138bc5b3f5c58779ce809fda"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga04758b9c138bc5b3f5c58779ce809fda">OGE_GetSceneChapter</a> (int iSceneId)</td></tr>
+<tr class="memdesc:ga04758b9c138bc5b3f5c58779ce809fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景所属的章节的名称  <a href="#ga04758b9c138bc5b3f5c58779ce809fda"></a><br/></td></tr>
+<tr class="memitem:ga54f7bb3c0e8645d2798896d4b8461947"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga54f7bb3c0e8645d2798896d4b8461947">OGE_SetSceneChapter</a> (int iSceneId, string sChapterName)</td></tr>
+<tr class="memdesc:ga54f7bb3c0e8645d2798896d4b8461947"><td class="mdescLeft">&#160;</td><td class="mdescRight">给场景设置章节名称  <a href="#ga54f7bb3c0e8645d2798896d4b8461947"></a><br/></td></tr>
+<tr class="memitem:gad08cff03bbd7513cd1190a67df434076"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad08cff03bbd7513cd1190a67df434076">OGE_GetSceneTag</a> (int iSceneId)</td></tr>
+<tr class="memdesc:gad08cff03bbd7513cd1190a67df434076"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景的标签名称  <a href="#gad08cff03bbd7513cd1190a67df434076"></a><br/></td></tr>
+<tr class="memitem:gae3ff7d6d87ed61afb9d473388c7549fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gae3ff7d6d87ed61afb9d473388c7549fa">OGE_SetSceneTag</a> (int iSceneId, string sTagName)</td></tr>
+<tr class="memdesc:gae3ff7d6d87ed61afb9d473388c7549fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">给场景设置标签名称  <a href="#gae3ff7d6d87ed61afb9d473388c7549fa"></a><br/></td></tr>
+<tr class="memitem:ga10983cf071bb6e60644f1cdafc51065f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga10983cf071bb6e60644f1cdafc51065f">OGE_GetSceneGameData</a> (int iSceneId)</td></tr>
+<tr class="memdesc:ga10983cf071bb6e60644f1cdafc51065f"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景自带的数据对象  <a href="#ga10983cf071bb6e60644f1cdafc51065f"></a><br/></td></tr>
+<tr class="memitem:ga7e571788ea6cd12d1a849af3d9e559a7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga7e571788ea6cd12d1a849af3d9e559a7">OGE_GetSceneBgMusic</a> (int iSceneId)</td></tr>
+<tr class="memdesc:ga7e571788ea6cd12d1a849af3d9e559a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景的背景音乐名称  <a href="#ga7e571788ea6cd12d1a849af3d9e559a7"></a><br/></td></tr>
+<tr class="memitem:gaf4ba80e048ee21a283fb85bf324810a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gaf4ba80e048ee21a283fb85bf324810a4">OGE_GetSceneTime</a> ()</td></tr>
+<tr class="memdesc:gaf4ba80e048ee21a283fb85bf324810a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得场景从运行到现在所经过的时间  <a href="#gaf4ba80e048ee21a283fb85bf324810a4"></a><br/></td></tr>
+<tr class="memitem:gad161b7d8fdc5afaee2cbf6c8bff07e29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gad161b7d8fdc5afaee2cbf6c8bff07e29">OGE_CallScene</a> (string sSceneName)</td></tr>
+<tr class="memdesc:gad161b7d8fdc5afaee2cbf6c8bff07e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">跳转到指定名称的场景  <a href="#gad161b7d8fdc5afaee2cbf6c8bff07e29"></a><br/></td></tr>
+<tr class="memitem:gac07068991b6a8d9d95c08a940ed74ebd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gac07068991b6a8d9d95c08a940ed74ebd">OGE_SetSceneFadeIn</a> (int iSceneId, int iType, int iSpeed)</td></tr>
+<tr class="memdesc:gac07068991b6a8d9d95c08a940ed74ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景淡入动作  <a href="#gac07068991b6a8d9d95c08a940ed74ebd"></a><br/></td></tr>
+<tr class="memitem:ga14ff5af4091c798fce2876828d6f9def"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga14ff5af4091c798fce2876828d6f9def">OGE_SetSceneFadeOut</a> (int iSceneId, int iType, int iSpeed)</td></tr>
+<tr class="memdesc:ga14ff5af4091c798fce2876828d6f9def"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景淡出的动作  <a href="#ga14ff5af4091c798fce2876828d6f9def"></a><br/></td></tr>
+<tr class="memitem:ga2f48dcb6ec0e9b7b46db39baf09922f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga2f48dcb6ec0e9b7b46db39baf09922f7">OGE_SetSceneFadeMask</a> (int iSceneId, int iImageId)</td></tr>
+<tr class="memdesc:ga2f48dcb6ec0e9b7b46db39baf09922f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置场景过渡效果图  <a href="#ga2f48dcb6ec0e9b7b46db39baf09922f7"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="gad6604a01a2cb80f8eb559a16278c47fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gad6604a01a2cb80f8eb559a16278c47fb">OGE_BringSprToTop</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把精灵提到当前场景的最顶层 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的Z轴坐标值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad161b7d8fdc5afaee2cbf6c8bff07e29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gad161b7d8fdc5afaee2cbf6c8bff07e29">OGE_CallScene</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSceneName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>跳转到指定名称的场景 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSceneName</td><td>要跳转到的场景的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga62efcfc774e2603ec5e57f37d760c9af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga62efcfc774e2603ec5e57f37d760c9af">OGE_FindScene</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSceneName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据名称找出场景 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSceneName</td><td>场景的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6478f756014aff376e7fd28d99d3397b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga6478f756014aff376e7fd28d99d3397b">OGE_FindSceneSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSprName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>通过名称在场景中找出指定的精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSprName</td><td>精灵的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6976f7114b752ab457cba93867b1767f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga6976f7114b752ab457cba93867b1767f">OGE_FreezeSprites</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>冻结或重新激活当前场景中的NPC精灵和玩家精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bValue</td><td>为真则冻结精灵，否则就重新激活他们 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5d8d740fd3e8cebb12186f43b051b49b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga5d8d740fd3e8cebb12186f43b051b49b">OGE_GetActiveScene</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前活动的场景 </p>
+<dl class="section return"><dt>返回:</dt><dd>当前活动的场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaab5cbe2008b9476d36d873b56b00479a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gaab5cbe2008b9476d36d873b56b00479a">OGE_GetDefaultPlayerSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的默认玩家精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga39903ee246173e81611ff2863992b98f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga39903ee246173e81611ff2863992b98f">OGE_GetFirstSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的首精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>首精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6508e7da76589ff4473c8be01ae12898"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga6508e7da76589ff4473c8be01ae12898">OGE_GetFocusSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的获得焦点的精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac1cd8637f7f8b9dc46a3e867cbd48d2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gac1cd8637f7f8b9dc46a3e867cbd48d2a">OGE_GetLastActiveScene</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得上一个活动的场景 </p>
+<dl class="section return"><dt>返回:</dt><dd>上一个活动的场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab8e486aaa6f5571a2d29c6684949448c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gab8e486aaa6f5571a2d29c6684949448c">OGE_GetLastSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的末精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>末精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga69d2961519cc5b1a82ccf4746235fe42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga69d2961519cc5b1a82ccf4746235fe42">OGE_GetModalSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的模态精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac67030aecafd70000853cab3de8919c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gac67030aecafd70000853cab3de8919c6">OGE_GetMouseSpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的鼠标精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>鼠标精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gadeee403d205b76d6dc6c69c331f6fdd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gadeee403d205b76d6dc6c69c331f6fdd3">OGE_GetNextActiveScene</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得下一个活动的场景 </p>
+<dl class="section return"><dt>返回:</dt><dd>下一个活动的场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad0b39a20b6eaad7b36d5138d583860b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gad0b39a20b6eaad7b36d5138d583860b6">OGE_GetProxySpr</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中的代理精灵 </p>
+<dl class="section return"><dt>返回:</dt><dd>代理精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7a22d92102e7853f802a9f9b1cbbcfa7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga7a22d92102e7853f802a9f9b1cbbcfa7">OGE_GetScene</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景 </p>
+<dl class="section return"><dt>返回:</dt><dd>当前场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7e571788ea6cd12d1a849af3d9e559a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___scene.html#ga7e571788ea6cd12d1a849af3d9e559a7">OGE_GetSceneBgMusic</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景的背景音乐名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>背景音乐的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0c0f3b32a1aad66608e1e36f9629351d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga0c0f3b32a1aad66608e1e36f9629351d">OGE_GetSceneByIndex</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得场景 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIndex</td><td>场景的序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga658b4231cc62bb19235c8a96d4aa131c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga658b4231cc62bb19235c8a96d4aa131c">OGE_GetSceneByName</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSceneName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据名称取得场景 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSceneName</td><td>场景的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga04758b9c138bc5b3f5c58779ce809fda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___scene.html#ga04758b9c138bc5b3f5c58779ce809fda">OGE_GetSceneChapter</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景所属的章节的名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景所属的章节的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gadc5a49b989ab824243c7102f3d2dceba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gadc5a49b989ab824243c7102f3d2dceba">OGE_GetSceneCount</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得所有场景的总数 </p>
+<dl class="section return"><dt>返回:</dt><dd>全部场景的总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa83b4c46940285547a18c625a74a91f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gaa83b4c46940285547a18c625a74a91f6">OGE_GetSceneCustomData</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景的自定义数据 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>数据的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga10983cf071bb6e60644f1cdafc51065f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga10983cf071bb6e60644f1cdafc51065f">OGE_GetSceneGameData</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景自带的数据对象 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>数据的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac09aa9c5633a3c5694543e4062ffd8d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gac09aa9c5633a3c5694543e4062ffd8d0">OGE_GetSceneLightMap</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景的光图 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>光图的图像ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa4ab49c1f7354cd7c54b48b85a190ba2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___scene.html#gaa4ab49c1f7354cd7c54b48b85a190ba2">OGE_GetSceneName</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景的名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景的名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3aaaac9f2ce975f20cb1d73a00bf56d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga3aaaac9f2ce975f20cb1d73a00bf56d3">OGE_GetScenePlot</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景的剧情精灵的ID </p>
+<dl class="section return"><dt>返回:</dt><dd>当前场景的剧情精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7178058fabd27fc2e21a84b7e7f99f5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga7178058fabd27fc2e21a84b7e7f99f5f">OGE_GetSceneSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得当前场景中的指定精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>精灵在当前场景中的序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga8a825c3a347db76310494048bff9573e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga8a825c3a347db76310494048bff9573e">OGE_GetSceneSprByIndex</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得场景中在指定状态下的某一精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iIndex</td><td>在某一状态下的精灵在场景中的序号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iState</td><td>某一状态 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9323b82d4ccc78377f7d66c58cd5acb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga9323b82d4ccc78377f7d66c58cd5acb4">OGE_GetSceneSprCount</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景中所有在指定状态下的精灵的总数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iState</td><td>精灵的状态 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad08cff03bbd7513cd1190a67df434076"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___scene.html#gad08cff03bbd7513cd1190a67df434076">OGE_GetSceneTag</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景的标签名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>场景的标签名称 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf4ba80e048ee21a283fb85bf324810a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gaf4ba80e048ee21a283fb85bf324810a4">OGE_GetSceneTime</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得场景从运行到现在所经过的时间 </p>
+<dl class="section return"><dt>返回:</dt><dd>场景运行到现在所经过的时间（毫秒数） </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga48c27ba9777153168f0966a2782d45b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga48c27ba9777153168f0966a2782d45b8">OGE_GetSceneTimerInterval</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景自带的计时器的计时间隔 </p>
+<dl class="section return"><dt>返回:</dt><dd>计时器的计时间隔 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga699ae52fa15b9536ffc66ab0a5c66715"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga699ae52fa15b9536ffc66ab0a5c66715">OGE_GetSprForScene</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sSprName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sClassName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>用指定的模板来创建一个精灵，并加入到场景中 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sSprName</td><td>精灵的名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sClassName</td><td>模板的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>精灵的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab744a20d22ad62d283917bd56e1d2c53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gab744a20d22ad62d283917bd56e1d2c53">OGE_GetTopZ</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前场景中最大的Z轴坐标值 </p>
+<dl class="section return"><dt>返回:</dt><dd>最大的Z轴坐标值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4d3bc88c9696012365a11aa4c2c095c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___scene.html#ga4d3bc88c9696012365a11aa4c2c095c1">OGE_IsSceneTimerWaiting</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查当前场景自带的计时器是否正在计时 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果计时器正在计时则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac9ca4167bda3bcb96768ab76e866ad27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___scene.html#gac9ca4167bda3bcb96768ab76e866ad27">OGE_OpenSceneTimer</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iInterval</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>启动当前场景自带的计时器 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInterval</td><td>计时器的计时间隔 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回真 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad6a6399a13b664f856984ed8d7588617"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gad6a6399a13b664f856984ed8d7588617">OGE_PlayBgMusic</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iLoopTimes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>播放背景音乐 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLoopTimes</td><td>播放的次数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7f48eac745ed5f63deb15fab353534ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga7f48eac745ed5f63deb15fab353534ab">OGE_RemoveScene</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>移除一个场景 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sName</td><td>场景的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gad8e149b5223efc0718d501d245b48080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gad8e149b5223efc0718d501d245b48080">OGE_RemoveSprFromScene</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从场景中移除一个精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3f89c283bef4a9fb3aae51942b47cee8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga3f89c283bef4a9fb3aae51942b47cee8">OGE_SetDefaultPlayerSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景的默认玩家精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga51b9e449a28e3902b59f080bb79abd89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga51b9e449a28e3902b59f080bb79abd89">OGE_SetFirstSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景中的首精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>首精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaccdbbd0ad8f354f70da78722a6b4ca7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#gaccdbbd0ad8f354f70da78722a6b4ca7a">OGE_SetFocusSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景中获得焦点的精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>获得焦点的精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5b8c62ea38ddc5473d0e0fc516353943"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga5b8c62ea38ddc5473d0e0fc516353943">OGE_SetLastSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景中的末精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>末精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga671c1980e3c956afb34a58ed799ff9b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga671c1980e3c956afb34a58ed799ff9b3">OGE_SetModalSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景中的模态精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>模态精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa78e357626b7600c97676d8a8f542ac2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#gaa78e357626b7600c97676d8a8f542ac2">OGE_SetMouseSpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景的鼠标精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>鼠标精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga793a689dcc4586df2a700cf99b7e0a1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga793a689dcc4586df2a700cf99b7e0a1e">OGE_SetProxySpr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景的代理精灵 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>代理精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga38df04ba13d0618ae74663fe2451d356"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga38df04ba13d0618ae74663fe2451d356">OGE_SetSceneBgMusic</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sMusicName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置当前场景的背景音乐 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sMusicName</td><td>音乐的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga54f7bb3c0e8645d2798896d4b8461947"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga54f7bb3c0e8645d2798896d4b8461947">OGE_SetSceneChapter</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sChapterName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>给场景设置章节名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sChapterName</td><td>章节的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2a95cbb87b1ebe7556c585303f17f365"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#ga2a95cbb87b1ebe7556c585303f17f365">OGE_SetSceneCustomData</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iGameDataId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bOwnIt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景的自定义数据 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iGameDataId</td><td>数据的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bOwnIt</td><td>是否让场景拥有该数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gac07068991b6a8d9d95c08a940ed74ebd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#gac07068991b6a8d9d95c08a940ed74ebd">OGE_SetSceneFadeIn</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSpeed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景淡入动作 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iType</td><td>淡入效果的类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSpeed</td><td>淡入的速度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2f48dcb6ec0e9b7b46db39baf09922f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga2f48dcb6ec0e9b7b46db39baf09922f7">OGE_SetSceneFadeMask</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iImageId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景过渡效果图 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iImageId</td><td>过渡效果图的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga14ff5af4091c798fce2876828d6f9def"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga14ff5af4091c798fce2876828d6f9def">OGE_SetSceneFadeOut</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSpeed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景淡出的动作 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iType</td><td>淡出效果的类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSpeed</td><td>淡出的速度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga195e05b4d33b23513129f80c0888e44c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga195e05b4d33b23513129f80c0888e44c">OGE_SetSceneLightMap</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iImageId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iLightMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景的光图 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iImageId</td><td>光图的图像ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iLightMode</td><td>光照模式 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>光图的图像ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4c02ef7def0b3d416e2a3b86af556f63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___scene.html#ga4c02ef7def0b3d416e2a3b86af556f63">OGE_SetSceneMap</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sNewMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iNewLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iNewTop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置场景地图 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sNewMap</td><td>地图名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNewLeft</td><td>新的视口位置横坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iNewTop</td><td>新的视口位置纵坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>地图的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae3ff7d6d87ed61afb9d473388c7549fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___scene.html#gae3ff7d6d87ed61afb9d473388c7549fa">OGE_SetSceneTag</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSceneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sTagName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>给场景设置标签名称 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSceneId</td><td>场景的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sTagName</td><td>标签名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

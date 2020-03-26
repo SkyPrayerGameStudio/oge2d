@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Path</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Path</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gad0902caba9d552c355f0ce7beb523db4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gad0902caba9d552c355f0ce7beb523db4">OGE_ResetPath</a> (int iSprId, int iStepLength, bool bAutoStepping)</td></tr>
+<tr class="memdesc:gad0902caba9d552c355f0ce7beb523db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置路径  <a href="#gad0902caba9d552c355f0ce7beb523db4"></a><br/></td></tr>
+<tr class="memitem:gaa8a6954ac89b9be03c595f2253d44d51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gaa8a6954ac89b9be03c595f2253d44d51">OGE_GetPathNodeIndex</a> (int iSprId)</td></tr>
+<tr class="memdesc:gaa8a6954ac89b9be03c595f2253d44d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得精灵正在使用的路径的当前节点的序号  <a href="#gaa8a6954ac89b9be03c595f2253d44d51"></a><br/></td></tr>
+<tr class="memitem:ga8b29dd016f8ac98a56bd97e6952b903d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#ga8b29dd016f8ac98a56bd97e6952b903d">OGE_GetPathStepLength</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga8b29dd016f8ac98a56bd97e6952b903d"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得精灵正在使用的路径的步长  <a href="#ga8b29dd016f8ac98a56bd97e6952b903d"></a><br/></td></tr>
+<tr class="memitem:ga18c8377f4a6b0e22d04c82985e154cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#ga18c8377f4a6b0e22d04c82985e154cf4">OGE_SetPathStepLength</a> (int iSprId, int iStepLength)</td></tr>
+<tr class="memdesc:ga18c8377f4a6b0e22d04c82985e154cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置精灵正在使用的路径的步长  <a href="#ga18c8377f4a6b0e22d04c82985e154cf4"></a><br/></td></tr>
+<tr class="memitem:gacf097e21d1d041d5f3352f8094239367"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gacf097e21d1d041d5f3352f8094239367">OGE_GetPathStepInterval</a> (int iSprId)</td></tr>
+<tr class="memdesc:gacf097e21d1d041d5f3352f8094239367"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得精灵正在使用的路径的步进时间间隔  <a href="#gacf097e21d1d041d5f3352f8094239367"></a><br/></td></tr>
+<tr class="memitem:ga191d6dd712bf82cc708289e55eadc631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#ga191d6dd712bf82cc708289e55eadc631">OGE_SetPathStepInterval</a> (int iSprId, int iStepInterval)</td></tr>
+<tr class="memdesc:ga191d6dd712bf82cc708289e55eadc631"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置精灵正在使用的路径的步进时间间隔  <a href="#ga191d6dd712bf82cc708289e55eadc631"></a><br/></td></tr>
+<tr class="memitem:gada50f5d7f04ce8e8d0afafd582cc823d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gada50f5d7f04ce8e8d0afafd582cc823d">OGE_GetPathDirection</a> (int iSprId)</td></tr>
+<tr class="memdesc:gada50f5d7f04ce8e8d0afafd582cc823d"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得精灵正在使用的路径的当前朝向  <a href="#gada50f5d7f04ce8e8d0afafd582cc823d"></a><br/></td></tr>
+<tr class="memitem:ga637f8e54418546f54b0543e7082e74f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#ga637f8e54418546f54b0543e7082e74f3">OGE_GetPath</a> (string sPathName)</td></tr>
+<tr class="memdesc:ga637f8e54418546f54b0543e7082e74f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据路径的名称取得路径对象  <a href="#ga637f8e54418546f54b0543e7082e74f3"></a><br/></td></tr>
+<tr class="memitem:gacc63edc3ad2aaf230684524d632c511f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gacc63edc3ad2aaf230684524d632c511f">OGE_GetPathByCode</a> (int iCode)</td></tr>
+<tr class="memdesc:gacc63edc3ad2aaf230684524d632c511f"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据路径的代号取得路径对象  <a href="#gacc63edc3ad2aaf230684524d632c511f"></a><br/></td></tr>
+<tr class="memitem:gae2ae179b4ecf1ef5d383fd7c963f015e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gae2ae179b4ecf1ef5d383fd7c963f015e">OGE_PathGenLine</a> (int iPathId, int x1, int y1, int x2, int y2)</td></tr>
+<tr class="memdesc:gae2ae179b4ecf1ef5d383fd7c963f015e"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据所给出的起点和终点自动生成一条直线，并使用直线的像素点作为路径的所有节点  <a href="#gae2ae179b4ecf1ef5d383fd7c963f015e"></a><br/></td></tr>
+<tr class="memitem:ga41b1836e60760a31f939af59bb91d351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#ga41b1836e60760a31f939af59bb91d351">OGE_PathGenExtLine</a> (int iPathId, int iSrcX, int iSrcY, int iDstX, int iDstY, int iExtraWidth, int iExtraHeight)</td></tr>
+<tr class="memdesc:ga41b1836e60760a31f939af59bb91d351"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据给出的起点终点，生成一条直线路径，路径的终点在屏幕的边缘之外  <a href="#ga41b1836e60760a31f939af59bb91d351"></a><br/></td></tr>
+<tr class="memitem:gad471bc41071a8a373bd62f5f3a3bfa35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___path.html#gad471bc41071a8a373bd62f5f3a3bfa35">OGE_GetPathNodeCount</a> (int iPathId)</td></tr>
+<tr class="memdesc:gad471bc41071a8a373bd62f5f3a3bfa35"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得路径中所有节点的总数量  <a href="#gad471bc41071a8a373bd62f5f3a3bfa35"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="ga637f8e54418546f54b0543e7082e74f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#ga637f8e54418546f54b0543e7082e74f3">OGE_GetPath</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sPathName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据路径的名称取得路径对象 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sPathName</td><td>路径的名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacc63edc3ad2aaf230684524d632c511f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gacc63edc3ad2aaf230684524d632c511f">OGE_GetPathByCode</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据路径的代号取得路径对象 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iCode</td><td>路径的代号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gada50f5d7f04ce8e8d0afafd582cc823d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gada50f5d7f04ce8e8d0afafd582cc823d">OGE_GetPathDirection</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得精灵正在使用的路径的当前朝向 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径的方向 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad471bc41071a8a373bd62f5f3a3bfa35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gad471bc41071a8a373bd62f5f3a3bfa35">OGE_GetPathNodeCount</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPathId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得路径中所有节点的总数量 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPathId</td><td>路径ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>节点总数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa8a6954ac89b9be03c595f2253d44d51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gaa8a6954ac89b9be03c595f2253d44d51">OGE_GetPathNodeIndex</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得精灵正在使用的路径的当前节点的序号 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径当前节点的序号 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacf097e21d1d041d5f3352f8094239367"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gacf097e21d1d041d5f3352f8094239367">OGE_GetPathStepInterval</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得精灵正在使用的路径的步进时间间隔 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径的步进时间间隔 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga8b29dd016f8ac98a56bd97e6952b903d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#ga8b29dd016f8ac98a56bd97e6952b903d">OGE_GetPathStepLength</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得精灵正在使用的路径的步长 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>路径的步长 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga41b1836e60760a31f939af59bb91d351"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___path.html#ga41b1836e60760a31f939af59bb91d351">OGE_PathGenExtLine</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPathId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSrcX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSrcY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iDstX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iDstY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iExtraWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iExtraHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据给出的起点终点，生成一条直线路径，路径的终点在屏幕的边缘之外 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPathId</td><td>路径的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrcX</td><td>直线起点的X坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSrcY</td><td>直线起点的Y坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDstX</td><td>直线终点的X坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDstY</td><td>直线终点的Y坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtraWidth</td><td>超出屏幕部分区域的宽度 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iExtraHeight</td><td>超出屏幕部分区域的高度 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gae2ae179b4ecf1ef5d383fd7c963f015e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___path.html#gae2ae179b4ecf1ef5d383fd7c963f015e">OGE_PathGenLine</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPathId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据所给出的起点和终点自动生成一条直线，并使用直线的像素点作为路径的所有节点 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPathId</td><td>路径的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>直线起点的X坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>直线起点的Y坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>直线终点的X坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>直线终点的Y坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gad0902caba9d552c355f0ce7beb523db4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___path.html#gad0902caba9d552c355f0ce7beb523db4">OGE_ResetPath</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bAutoStepping</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>重置路径 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepLength</td><td>路径的步长 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bAutoStepping</td><td>是否使用自动步进 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回零 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga191d6dd712bf82cc708289e55eadc631"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___path.html#ga191d6dd712bf82cc708289e55eadc631">OGE_SetPathStepInterval</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepInterval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置精灵正在使用的路径的步进时间间隔 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepInterval</td><td>路径的步进时间间隔 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga18c8377f4a6b0e22d04c82985e154cf4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___path.html#ga18c8377f4a6b0e22d04c82985e154cf4">OGE_SetPathStepLength</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStepLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置精灵正在使用的路径的步长 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>精灵的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iStepLength</td><td>路径的步长 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

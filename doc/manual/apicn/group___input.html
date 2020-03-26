@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Input</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Input</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gae3afb1136970103f79d096daa6d5d018"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gae3afb1136970103f79d096daa6d5d018">OGE_GetKey</a> ()</td></tr>
+<tr class="memdesc:gae3afb1136970103f79d096daa6d5d018"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前键盘中被按下的按键  <a href="#gae3afb1136970103f79d096daa6d5d018"></a><br/></td></tr>
+<tr class="memitem:ga62184d6749eb33ae5eefd14ea6efb1bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga62184d6749eb33ae5eefd14ea6efb1bb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga62184d6749eb33ae5eefd14ea6efb1bb">OGE_HoldKeyEvent</a> ()</td></tr>
+<tr class="memdesc:ga62184d6749eb33ae5eefd14ea6efb1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">停止继续广播键盘的按键事件 <br/></td></tr>
+<tr class="memitem:gac7f81d1729c29a17cdca78af23bfa8b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac7f81d1729c29a17cdca78af23bfa8b6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gac7f81d1729c29a17cdca78af23bfa8b6">OGE_SkipMouseEvent</a> ()</td></tr>
+<tr class="memdesc:gac7f81d1729c29a17cdca78af23bfa8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">继续广播鼠标点击事件 <br/></td></tr>
+<tr class="memitem:gaadf8b1f197a9f00191fcd86147c33b78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gaadf8b1f197a9f00191fcd86147c33b78">OGE_GetScanCode</a> ()</td></tr>
+<tr class="memdesc:gaadf8b1f197a9f00191fcd86147c33b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得键盘中当前被按下的按键的扫描号  <a href="#gaadf8b1f197a9f00191fcd86147c33b78"></a><br/></td></tr>
+<tr class="memitem:ga1e3edc01cdc0b2f5fcaacc114187eebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga1e3edc01cdc0b2f5fcaacc114187eebc">OGE_ShowKeyboard</a> (bool bShow)</td></tr>
+<tr class="memdesc:ga1e3edc01cdc0b2f5fcaacc114187eebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">在屏幕上显示或隐藏软键盘  <a href="#ga1e3edc01cdc0b2f5fcaacc114187eebc"></a><br/></td></tr>
+<tr class="memitem:ga9c3714d8bc62b49b91fa325afd8a21e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga9c3714d8bc62b49b91fa325afd8a21e3">OGE_IsKeyboardShown</a> ()</td></tr>
+<tr class="memdesc:ga9c3714d8bc62b49b91fa325afd8a21e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查软键盘是否正在屏幕上显示  <a href="#ga9c3714d8bc62b49b91fa325afd8a21e3"></a><br/></td></tr>
+<tr class="memitem:ga3070df373198003d1b56987e586e0d37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga3070df373198003d1b56987e586e0d37">OGE_SetKeyDown</a> (int iKey)</td></tr>
+<tr class="memdesc:ga3070df373198003d1b56987e586e0d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">模拟键盘按键被按下的事件  <a href="#ga3070df373198003d1b56987e586e0d37"></a><br/></td></tr>
+<tr class="memitem:ga85644b55bd97e67832bdb41ac055960d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga85644b55bd97e67832bdb41ac055960d">OGE_SetKeyUp</a> (int iKey)</td></tr>
+<tr class="memdesc:ga85644b55bd97e67832bdb41ac055960d"><td class="mdescLeft">&#160;</td><td class="mdescRight">模拟键盘按键被按下后弹起来  <a href="#ga85644b55bd97e67832bdb41ac055960d"></a><br/></td></tr>
+<tr class="memitem:ga8bc7423813d42c58adc49c83fac2f6f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga8bc7423813d42c58adc49c83fac2f6f6">OGE_IsKeyDown</a> (int iKey)</td></tr>
+<tr class="memdesc:ga8bc7423813d42c58adc49c83fac2f6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查键盘中的某一按键当前有没有被按下  <a href="#ga8bc7423813d42c58adc49c83fac2f6f6"></a><br/></td></tr>
+<tr class="memitem:ga106c99e597d36e6ab9de5102d8a222a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga106c99e597d36e6ab9de5102d8a222a7">OGE_IsKeyDownTime</a> (int iKey, int iInterval)</td></tr>
+<tr class="memdesc:ga106c99e597d36e6ab9de5102d8a222a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查键盘按键在上一次被按以后的一段时间里有没有再被按过一次  <a href="#ga106c99e597d36e6ab9de5102d8a222a7"></a><br/></td></tr>
+<tr class="memitem:gabd6a95aa592e86d9e5563e0cec19d4a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gabd6a95aa592e86d9e5563e0cec19d4a4">OGE_GetJoystickCount</a> ()</td></tr>
+<tr class="memdesc:gabd6a95aa592e86d9e5563e0cec19d4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得可用的摇杆数量  <a href="#gabd6a95aa592e86d9e5563e0cec19d4a4"></a><br/></td></tr>
+<tr class="memitem:ga38ac435025e24cf0efc42e1711602ed4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga38ac435025e24cf0efc42e1711602ed4">OGE_IsJoyKeyDown</a> (int iJoyId, int iKey)</td></tr>
+<tr class="memdesc:ga38ac435025e24cf0efc42e1711602ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查摇杆的某一按键是否正被按下  <a href="#ga38ac435025e24cf0efc42e1711602ed4"></a><br/></td></tr>
+<tr class="memitem:ga3c93c838c65fddb73d145abe65e1b10d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga3c93c838c65fddb73d145abe65e1b10d">OGE_IsJoyKeyDownTime</a> (int iJoyId, int iKey, int iInterval)</td></tr>
+<tr class="memdesc:ga3c93c838c65fddb73d145abe65e1b10d"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查摇杆按键在上一次被按下以后，在一段短的时间里，有没有再被按下  <a href="#ga3c93c838c65fddb73d145abe65e1b10d"></a><br/></td></tr>
+<tr class="memitem:gad6fae6f4164486ddc8dd59ce946e99a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gad6fae6f4164486ddc8dd59ce946e99a4">OGE_IsMouseLeftDown</a> ()</td></tr>
+<tr class="memdesc:gad6fae6f4164486ddc8dd59ce946e99a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查鼠标的左键是否被按下  <a href="#gad6fae6f4164486ddc8dd59ce946e99a4"></a><br/></td></tr>
+<tr class="memitem:gad17e9cc68c79199efede20c0dfb2050d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gad17e9cc68c79199efede20c0dfb2050d">OGE_IsMouseRightDown</a> ()</td></tr>
+<tr class="memdesc:gad17e9cc68c79199efede20c0dfb2050d"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查鼠标右键是否被按下  <a href="#gad17e9cc68c79199efede20c0dfb2050d"></a><br/></td></tr>
+<tr class="memitem:ga7b45583d082a7068e224809e3b8766d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga7b45583d082a7068e224809e3b8766d3">OGE_IsMouseLeftUp</a> ()</td></tr>
+<tr class="memdesc:ga7b45583d082a7068e224809e3b8766d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查鼠标左键是否被按下后又弹起来  <a href="#ga7b45583d082a7068e224809e3b8766d3"></a><br/></td></tr>
+<tr class="memitem:ga995232f02a979cf38414af25aa9833c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga995232f02a979cf38414af25aa9833c4">OGE_IsMouseRightUp</a> ()</td></tr>
+<tr class="memdesc:ga995232f02a979cf38414af25aa9833c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查鼠标右键是否被按下后又弹起来了  <a href="#ga995232f02a979cf38414af25aa9833c4"></a><br/></td></tr>
+<tr class="memitem:ga0f837f3220cbcdec856d7f614fea4f98"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga0f837f3220cbcdec856d7f614fea4f98">OGE_GetMouseX</a> ()</td></tr>
+<tr class="memdesc:ga0f837f3220cbcdec856d7f614fea4f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得鼠标光标的位置的横坐标  <a href="#ga0f837f3220cbcdec856d7f614fea4f98"></a><br/></td></tr>
+<tr class="memitem:gaee23dcb84781472434caf6baf209019d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gaee23dcb84781472434caf6baf209019d">OGE_GetMouseY</a> ()</td></tr>
+<tr class="memdesc:gaee23dcb84781472434caf6baf209019d"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得鼠标光标的位置的纵坐标  <a href="#gaee23dcb84781472434caf6baf209019d"></a><br/></td></tr>
+<tr class="memitem:ga8919e03cb78542ed0308dfbb6c2f4b71"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga8919e03cb78542ed0308dfbb6c2f4b71">OGE_GetCaretPos</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga8919e03cb78542ed0308dfbb6c2f4b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得文本输入框当前光标的位置  <a href="#ga8919e03cb78542ed0308dfbb6c2f4b71"></a><br/></td></tr>
+<tr class="memitem:ga5c801e926f835248043d52ffd5d10652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga5c801e926f835248043d52ffd5d10652">OGE_ResetCaretPos</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga5c801e926f835248043d52ffd5d10652"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置文本输入框的光标位置（重置为零）  <a href="#ga5c801e926f835248043d52ffd5d10652"></a><br/></td></tr>
+<tr class="memitem:gaa798305c5050f5ab164e6dd43796fbb0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gaa798305c5050f5ab164e6dd43796fbb0">OGE_GetInputTextBuffer</a> (int iSprId)</td></tr>
+<tr class="memdesc:gaa798305c5050f5ab164e6dd43796fbb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得文本输入的缓冲区  <a href="#gaa798305c5050f5ab164e6dd43796fbb0"></a><br/></td></tr>
+<tr class="memitem:ga819dee49f15628b37931e60f653f86d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga819dee49f15628b37931e60f653f86d2">OGE_ClearInputTextBuffer</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga819dee49f15628b37931e60f653f86d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空文本输入缓冲区  <a href="#ga819dee49f15628b37931e60f653f86d2"></a><br/></td></tr>
+<tr class="memitem:ga5db64861680283340587811cf1aa629b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga5db64861680283340587811cf1aa629b">OGE_GetInputCharCount</a> (int iSprId)</td></tr>
+<tr class="memdesc:ga5db64861680283340587811cf1aa629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得输入文本的字符个数  <a href="#ga5db64861680283340587811cf1aa629b"></a><br/></td></tr>
+<tr class="memitem:gae717859979a9dd879549ab744ab2f4dc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#gae717859979a9dd879549ab744ab2f4dc">OGE_GetInputText</a> (int iSprId)</td></tr>
+<tr class="memdesc:gae717859979a9dd879549ab744ab2f4dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得输入的文本  <a href="#gae717859979a9dd879549ab744ab2f4dc"></a><br/></td></tr>
+<tr class="memitem:ga0e8b2a246130c2d7ac6e2cb41c388e07"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga0e8b2a246130c2d7ac6e2cb41c388e07">OGE_SetInputText</a> (int iSprId, string sText)</td></tr>
+<tr class="memdesc:ga0e8b2a246130c2d7ac6e2cb41c388e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">往文本输入缓冲区中填写指定的字符串  <a href="#ga0e8b2a246130c2d7ac6e2cb41c388e07"></a><br/></td></tr>
+<tr class="memitem:ga622b38675f58b7ef87261319da979cb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input.html#ga622b38675f58b7ef87261319da979cb7">OGE_SetInputWinPos</a> (int iSprId, int iPosX, int iPosY)</td></tr>
+<tr class="memdesc:ga622b38675f58b7ef87261319da979cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置输入窗口的位置  <a href="#ga622b38675f58b7ef87261319da979cb7"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="ga819dee49f15628b37931e60f653f86d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga819dee49f15628b37931e60f653f86d2">OGE_ClearInputTextBuffer</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>清空文本输入缓冲区 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga8919e03cb78542ed0308dfbb6c2f4b71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#ga8919e03cb78542ed0308dfbb6c2f4b71">OGE_GetCaretPos</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得文本输入框当前光标的位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>文本输入框当前光标的位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5db64861680283340587811cf1aa629b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#ga5db64861680283340587811cf1aa629b">OGE_GetInputCharCount</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得输入文本的字符个数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>输入文本的字符个数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae717859979a9dd879549ab744ab2f4dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___input.html#gae717859979a9dd879549ab744ab2f4dc">OGE_GetInputText</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得输入的文本 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>输入的文本 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa798305c5050f5ab164e6dd43796fbb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#gaa798305c5050f5ab164e6dd43796fbb0">OGE_GetInputTextBuffer</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得文本输入的缓冲区 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>文本输入缓冲区的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gabd6a95aa592e86d9e5563e0cec19d4a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#gabd6a95aa592e86d9e5563e0cec19d4a4">OGE_GetJoystickCount</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得可用的摇杆数量 </p>
+<dl class="section return"><dt>返回:</dt><dd>可用摇杆数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae3afb1136970103f79d096daa6d5d018"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#gae3afb1136970103f79d096daa6d5d018">OGE_GetKey</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前键盘中被按下的按键 </p>
+<dl class="section return"><dt>返回:</dt><dd>返回按键号 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0f837f3220cbcdec856d7f614fea4f98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#ga0f837f3220cbcdec856d7f614fea4f98">OGE_GetMouseX</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得鼠标光标的位置的横坐标 </p>
+<dl class="section return"><dt>返回:</dt><dd>鼠标光标的位置的横坐标 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaee23dcb84781472434caf6baf209019d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#gaee23dcb84781472434caf6baf209019d">OGE_GetMouseY</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得鼠标光标的位置的纵坐标 </p>
+<dl class="section return"><dt>返回:</dt><dd>鼠标光标的位置的纵坐标 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaadf8b1f197a9f00191fcd86147c33b78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#gaadf8b1f197a9f00191fcd86147c33b78">OGE_GetScanCode</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得键盘中当前被按下的按键的扫描号 </p>
+<dl class="section return"><dt>返回:</dt><dd>当前被按下的按键的扫描号 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga38ac435025e24cf0efc42e1711602ed4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga38ac435025e24cf0efc42e1711602ed4">OGE_IsJoyKeyDown</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iJoyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查摇杆的某一按键是否正被按下 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iJoyId</td><td>摇杆的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>摇杆的按键 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果按键正被按下则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3c93c838c65fddb73d145abe65e1b10d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga3c93c838c65fddb73d145abe65e1b10d">OGE_IsJoyKeyDownTime</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iJoyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iInterval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查摇杆按键在上一次被按下以后，在一段短的时间里，有没有再被按下 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iJoyId</td><td>摇杆的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>摇杆按键号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInterval</td><td>等待再被按下的时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果按键再次被按下，则返回真，超时无按下则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9c3714d8bc62b49b91fa325afd8a21e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga9c3714d8bc62b49b91fa325afd8a21e3">OGE_IsKeyboardShown</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查软键盘是否正在屏幕上显示 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果软键盘正在屏幕上显示则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga8bc7423813d42c58adc49c83fac2f6f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga8bc7423813d42c58adc49c83fac2f6f6">OGE_IsKeyDown</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查键盘中的某一按键当前有没有被按下 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>键盘的按键号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果按键被按下了则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga106c99e597d36e6ab9de5102d8a222a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga106c99e597d36e6ab9de5102d8a222a7">OGE_IsKeyDownTime</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iInterval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查键盘按键在上一次被按以后的一段时间里有没有再被按过一次 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>键盘的按键 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iInterval</td><td>上一次被按以后，等待再被按下的时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果在等待时间里，按键再被按下，则返回真，超时无按下则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad6fae6f4164486ddc8dd59ce946e99a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#gad6fae6f4164486ddc8dd59ce946e99a4">OGE_IsMouseLeftDown</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查鼠标的左键是否被按下 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果鼠标左键被按下则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7b45583d082a7068e224809e3b8766d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga7b45583d082a7068e224809e3b8766d3">OGE_IsMouseLeftUp</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查鼠标左键是否被按下后又弹起来 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果鼠标左键是被按下后又弹起了，则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad17e9cc68c79199efede20c0dfb2050d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#gad17e9cc68c79199efede20c0dfb2050d">OGE_IsMouseRightDown</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查鼠标右键是否被按下 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果鼠标右键被按下则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga995232f02a979cf38414af25aa9833c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="group___input.html#ga995232f02a979cf38414af25aa9833c4">OGE_IsMouseRightUp</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>检查鼠标右键是否被按下后又弹起来了 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果鼠标右键是被按下后又弹起来了，则返回真，否则返回假 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5c801e926f835248043d52ffd5d10652"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga5c801e926f835248043d52ffd5d10652">OGE_ResetCaretPos</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>重置文本输入框的光标位置（重置为零） </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0e8b2a246130c2d7ac6e2cb41c388e07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___input.html#ga0e8b2a246130c2d7ac6e2cb41c388e07">OGE_SetInputText</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>往文本输入缓冲区中填写指定的字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sText</td><td>用于填充输入缓冲区的文本 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>输入缓冲区中的文本的长度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga622b38675f58b7ef87261319da979cb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga622b38675f58b7ef87261319da979cb7">OGE_SetInputWinPos</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSprId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPosX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPosY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>设置输入窗口的位置 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSprId</td><td>文本输入精灵的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPosX</td><td>输入窗口的X坐标 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPosY</td><td>输入窗口的Y坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3070df373198003d1b56987e586e0d37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga3070df373198003d1b56987e586e0d37">OGE_SetKeyDown</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>模拟键盘按键被按下的事件 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>要模拟被按下的按键号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga85644b55bd97e67832bdb41ac055960d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga85644b55bd97e67832bdb41ac055960d">OGE_SetKeyUp</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>模拟键盘按键被按下后弹起来 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iKey</td><td>要模拟的按键号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1e3edc01cdc0b2f5fcaacc114187eebc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___input.html#ga1e3edc01cdc0b2f5fcaacc114187eebc">OGE_ShowKeyboard</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bShow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在屏幕上显示或隐藏软键盘 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bShow</td><td>如果为真，则显示键盘，否则隐藏它 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

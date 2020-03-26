@@ -1,0 +1,433 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><title>Open Game Engine 2D: Manual</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css">
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div align="left">
+<h2>Sprite's events<br>
+</h2>
+</div>
+<div class="contents">
+<div align="left">Open Game Engine 2D, Version 1.0.1
+</div>
+<br>
+<p>In current version, the sprite object has 24 events.<br>
+</p>
+<p>In every event, we may use the API function <span style="font-style: italic;">OGE_GetSpr()</span> to get
+current
+sprite's id.<br>
+</p>
+<br>
+<div class="contents">
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnInit </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will be fired when a sprite is created.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnUpdate </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen in every turn of the game cycle. It is an
+important event.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnSceneActive&nbsp;<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite's scene is activated.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnSceneDeactive </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite's scene is deactivated.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnEnter </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite enters the screen.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnLeave </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite leaves from the screen.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnCollide </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite collides with another one.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseIn </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when mouse moves into a sprite.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseOut </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when mouse leaves from a sprite.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseDown </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite catches the mouse and the player
+presses any mouse key.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(),
+OGE_GetMouseY(), OGE_IsMouseLeftDown(), OGE_IsMouseRightDown()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseUp </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite catches the mouse and the player
+presses, and then releases any mouse key.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(),
+OGE_GetMouseY(), OGE_IsMouseLeftDown(), OGE_IsMouseRightDown()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseDrag </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the player tries to drag a sprite.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(),
+OGE_GetMouseY()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseDrop </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the player drags and drops a sprite.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(),
+OGE_GetMouseY()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseOver </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the mouse is moving over the sprite.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(),
+OGE_GetMouseY()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnActive </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite is activated.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDeactive </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite is deactivated.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnCustomEnd </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite's all custom events end.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnTimerTime </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite's timer time is up.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnAnimaFin </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite's animation is completed.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnPathStep </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite is moving step by step according
+to some path.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnPathFin </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite finishes a path.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDraw </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite is drawing.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnGetFocus </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite gets focus (also when a plot starts).<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnLoseFocus </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the sprite loses focus (also when a plot ends).<br>
+<br>
+</div>
+</div>
+<br>
+</div>
+<span style="font-weight: bold;"><br>
+<br>
+</span></div>
+</body></html>

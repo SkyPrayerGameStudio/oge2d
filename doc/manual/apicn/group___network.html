@@ -1,0 +1,986 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Open Game Engine 2D API: Network</title>
+
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Open Game Engine 2D API
+   
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- 制作者 Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Network</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga4713e6569ecd41915bc9afa74b5f007e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga4713e6569ecd41915bc9afa74b5f007e">OGE_OpenLocalServer</a> (int iPort)</td></tr>
+<tr class="memdesc:ga4713e6569ecd41915bc9afa74b5f007e"><td class="mdescLeft">&#160;</td><td class="mdescRight">让本地服务器开始监听  <a href="#ga4713e6569ecd41915bc9afa74b5f007e"></a><br/></td></tr>
+<tr class="memitem:gad138b3681ae0f8ccdb44c7f4c598a186"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gad138b3681ae0f8ccdb44c7f4c598a186">OGE_CloseLocalServer</a> ()</td></tr>
+<tr class="memdesc:gad138b3681ae0f8ccdb44c7f4c598a186"><td class="mdescLeft">&#160;</td><td class="mdescRight">让本地服务器停止监听  <a href="#gad138b3681ae0f8ccdb44c7f4c598a186"></a><br/></td></tr>
+<tr class="memitem:ga26c2a5b8aa98d7909a6c5c646099d6a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga26c2a5b8aa98d7909a6c5c646099d6a2">OGE_ConnectServer</a> (string sAddr)</td></tr>
+<tr class="memdesc:ga26c2a5b8aa98d7909a6c5c646099d6a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据网络地址连接服务器（网络地址格式是IP地址:端口）  <a href="#ga26c2a5b8aa98d7909a6c5c646099d6a2"></a><br/></td></tr>
+<tr class="memitem:ga50e315c8a381310260672e7a8566ed05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga50e315c8a381310260672e7a8566ed05">OGE_DisconnectServer</a> (string sAddr)</td></tr>
+<tr class="memdesc:ga50e315c8a381310260672e7a8566ed05"><td class="mdescLeft">&#160;</td><td class="mdescRight">与使用指定网络地址的服务器断开连接  <a href="#ga50e315c8a381310260672e7a8566ed05"></a><br/></td></tr>
+<tr class="memitem:ga329eae77112d96b7b5f8e7b0b6746f64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga329eae77112d96b7b5f8e7b0b6746f64">OGE_DisconnectClient</a> (string sAddr)</td></tr>
+<tr class="memdesc:ga329eae77112d96b7b5f8e7b0b6746f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">与使用指定网络地址的客户端断开连接  <a href="#ga329eae77112d96b7b5f8e7b0b6746f64"></a><br/></td></tr>
+<tr class="memitem:ga0bb8ca8db044f20601944860a828b9c4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga0bb8ca8db044f20601944860a828b9c4">OGE_GetSocketAddr</a> (int iSockId)</td></tr>
+<tr class="memdesc:ga0bb8ca8db044f20601944860a828b9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得套接字的网络地址  <a href="#ga0bb8ca8db044f20601944860a828b9c4"></a><br/></td></tr>
+<tr class="memitem:ga237d45e5d26be273bd07329890b00f40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga237d45e5d26be273bd07329890b00f40">OGE_GetCurrentSocket</a> ()</td></tr>
+<tr class="memdesc:ga237d45e5d26be273bd07329890b00f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前套接字  <a href="#ga237d45e5d26be273bd07329890b00f40"></a><br/></td></tr>
+<tr class="memitem:gab8f2eebc986642ae1d0a9737cd7ad2ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gab8f2eebc986642ae1d0a9737cd7ad2ed">OGE_GetUserSocket</a> (int idx)</td></tr>
+<tr class="memdesc:gab8f2eebc986642ae1d0a9737cd7ad2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据序号取得用户套接字  <a href="#gab8f2eebc986642ae1d0a9737cd7ad2ed"></a><br/></td></tr>
+<tr class="memitem:ga75f687350a36bd42240240928d219f0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga75f687350a36bd42240240928d219f0c">OGE_SetUserSocket</a> (int iSockId, int idx)</td></tr>
+<tr class="memdesc:ga75f687350a36bd42240240928d219f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">用指定序号保存用户套接字  <a href="#ga75f687350a36bd42240240928d219f0c"></a><br/></td></tr>
+<tr class="memitem:gafb71f02a214b9655262e2713b6f76a9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gafb71f02a214b9655262e2713b6f76a9b">OGE_GetRecvDataSize</a> ()</td></tr>
+<tr class="memdesc:gafb71f02a214b9655262e2713b6f76a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前接收到的数据的大小  <a href="#gafb71f02a214b9655262e2713b6f76a9b"></a><br/></td></tr>
+<tr class="memitem:gab3bf4513a78367bc065aef4832d46a2e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gab3bf4513a78367bc065aef4832d46a2e">OGE_GetRecvDataType</a> ()</td></tr>
+<tr class="memdesc:gab3bf4513a78367bc065aef4832d46a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得当前接收到的数据的类型  <a href="#gab3bf4513a78367bc065aef4832d46a2e"></a><br/></td></tr>
+<tr class="memitem:gac1c2dcefef3985a6ba70a7db620db9fb"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gac1c2dcefef3985a6ba70a7db620db9fb">OGE_GetRecvByte</a> (int pos, int &amp;next)</td></tr>
+<tr class="memdesc:gac1c2dcefef3985a6ba70a7db620db9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">从接收缓冲区里读取一个字节  <a href="#gac1c2dcefef3985a6ba70a7db620db9fb"></a><br/></td></tr>
+<tr class="memitem:ga6ff1eaa706bd0c0e3da93e8e0724748b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga6ff1eaa706bd0c0e3da93e8e0724748b">OGE_GetRecvInt</a> (int pos, int &amp;next)</td></tr>
+<tr class="memdesc:ga6ff1eaa706bd0c0e3da93e8e0724748b"><td class="mdescLeft">&#160;</td><td class="mdescRight">从接收缓冲区里读取一个整数  <a href="#ga6ff1eaa706bd0c0e3da93e8e0724748b"></a><br/></td></tr>
+<tr class="memitem:gaf2a79d6b517fa3bc28c51743df0044f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gaf2a79d6b517fa3bc28c51743df0044f7">OGE_GetRecvFloat</a> (int pos, int &amp;next)</td></tr>
+<tr class="memdesc:gaf2a79d6b517fa3bc28c51743df0044f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">从接收缓冲区里读取一个浮点数  <a href="#gaf2a79d6b517fa3bc28c51743df0044f7"></a><br/></td></tr>
+<tr class="memitem:ga62e8e58b2d5e365c60ede7f08585d0be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga62e8e58b2d5e365c60ede7f08585d0be">OGE_GetRecvBuf</a> (int pos, int len, int buf, int &amp;next)</td></tr>
+<tr class="memdesc:ga62e8e58b2d5e365c60ede7f08585d0be"><td class="mdescLeft">&#160;</td><td class="mdescRight">从接收缓冲区里拷贝一段内容（若干字节）到另一个缓冲区里  <a href="#ga62e8e58b2d5e365c60ede7f08585d0be"></a><br/></td></tr>
+<tr class="memitem:gadbf19aaa0d9a99b9aee94dc28ae4e543"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gadbf19aaa0d9a99b9aee94dc28ae4e543">OGE_GetRecvStr</a> (int pos, int len, int &amp;next)</td></tr>
+<tr class="memdesc:gadbf19aaa0d9a99b9aee94dc28ae4e543"><td class="mdescLeft">&#160;</td><td class="mdescRight">从接收缓冲区里读取一个字符串  <a href="#gadbf19aaa0d9a99b9aee94dc28ae4e543"></a><br/></td></tr>
+<tr class="memitem:ga92c1ade3dd55d3594af784639a047e55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga92c1ade3dd55d3594af784639a047e55">OGE_PutSendingByte</a> (int iSockId, int pos, char value)</td></tr>
+<tr class="memdesc:ga92c1ade3dd55d3594af784639a047e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">往套接字的发送缓冲区里写入一个字节  <a href="#ga92c1ade3dd55d3594af784639a047e55"></a><br/></td></tr>
+<tr class="memitem:ga567a6682bce14b1681c6aac850d60b15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga567a6682bce14b1681c6aac850d60b15">OGE_PutSendingInt</a> (int iSockId, int pos, int value)</td></tr>
+<tr class="memdesc:ga567a6682bce14b1681c6aac850d60b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">往套接字的发送缓冲区里写入一个整数  <a href="#ga567a6682bce14b1681c6aac850d60b15"></a><br/></td></tr>
+<tr class="memitem:ga28fbd4a3d2c0d59feb6b5916a63d4317"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga28fbd4a3d2c0d59feb6b5916a63d4317">OGE_PutSendingFloat</a> (int iSockId, int pos, double value)</td></tr>
+<tr class="memdesc:ga28fbd4a3d2c0d59feb6b5916a63d4317"><td class="mdescLeft">&#160;</td><td class="mdescRight">往套接字的发送缓冲区里写入一个浮点数  <a href="#ga28fbd4a3d2c0d59feb6b5916a63d4317"></a><br/></td></tr>
+<tr class="memitem:gae329dea77844f4ad98ad1a9b504189b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gae329dea77844f4ad98ad1a9b504189b1">OGE_PutSendingBuf</a> (int iSockId, int pos, int buf, int len)</td></tr>
+<tr class="memdesc:gae329dea77844f4ad98ad1a9b504189b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">从其他缓冲区里拷贝一段内容（若干字节）到套接字的发送缓冲区里  <a href="#gae329dea77844f4ad98ad1a9b504189b1"></a><br/></td></tr>
+<tr class="memitem:ga185c62909e2d5e4ff3a9d28c34eb44f2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga185c62909e2d5e4ff3a9d28c34eb44f2">OGE_PutSendingStr</a> (int iSockId, int pos, string value)</td></tr>
+<tr class="memdesc:ga185c62909e2d5e4ff3a9d28c34eb44f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">往套接字的发送缓冲区里写入一个字符串  <a href="#ga185c62909e2d5e4ff3a9d28c34eb44f2"></a><br/></td></tr>
+<tr class="memitem:ga97bfdbc6182eebc1acfaa2e0ee8c6c01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga97bfdbc6182eebc1acfaa2e0ee8c6c01">OGE_SendData</a> (int iSockId, int iDataSize)</td></tr>
+<tr class="memdesc:ga97bfdbc6182eebc1acfaa2e0ee8c6c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">把套接字发送缓冲区里的数据发送出去  <a href="#ga97bfdbc6182eebc1acfaa2e0ee8c6c01"></a><br/></td></tr>
+<tr class="memitem:gacf5838e154f818b4d22a127b860a4560"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gacf5838e154f818b4d22a127b860a4560">OGE_GetLocalIP</a> ()</td></tr>
+<tr class="memdesc:gacf5838e154f818b4d22a127b860a4560"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得本地IP地址  <a href="#gacf5838e154f818b4d22a127b860a4560"></a><br/></td></tr>
+<tr class="memitem:gab66017124f7faf161a87ec9d4c1a16e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#gab66017124f7faf161a87ec9d4c1a16e2">OGE_FindClient</a> (string sAddr)</td></tr>
+<tr class="memdesc:gab66017124f7faf161a87ec9d4c1a16e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据网络地址找出客户端的套接字  <a href="#gab66017124f7faf161a87ec9d4c1a16e2"></a><br/></td></tr>
+<tr class="memitem:ga9ce3ba45e3ffb4bb5bea4764c7e871a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga9ce3ba45e3ffb4bb5bea4764c7e871a4">OGE_FindServer</a> (string sAddr)</td></tr>
+<tr class="memdesc:ga9ce3ba45e3ffb4bb5bea4764c7e871a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据网络地址找出一个服务器端的套接字  <a href="#ga9ce3ba45e3ffb4bb5bea4764c7e871a4"></a><br/></td></tr>
+<tr class="memitem:ga6e1788660330840ff9d38cbe6d3f7fc2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___network.html#ga6e1788660330840ff9d38cbe6d3f7fc2">OGE_GetLocalServer</a> ()</td></tr>
+<tr class="memdesc:ga6e1788660330840ff9d38cbe6d3f7fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得本地服务器的套接字  <a href="#ga6e1788660330840ff9d38cbe6d3f7fc2"></a><br/></td></tr>
+</table>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="gad138b3681ae0f8ccdb44c7f4c598a186"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gad138b3681ae0f8ccdb44c7f4c598a186">OGE_CloseLocalServer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>让本地服务器停止监听 </p>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga26c2a5b8aa98d7909a6c5c646099d6a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga26c2a5b8aa98d7909a6c5c646099d6a2">OGE_ConnectServer</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sAddr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据网络地址连接服务器（网络地址格式是IP地址:端口） </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sAddr</td><td>网络地址(IP地址:端口) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>返回一个客户端的套接字ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga329eae77112d96b7b5f8e7b0b6746f64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga329eae77112d96b7b5f8e7b0b6746f64">OGE_DisconnectClient</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sAddr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>与使用指定网络地址的客户端断开连接 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sAddr</td><td>网络地址(IP地址:端口) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga50e315c8a381310260672e7a8566ed05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga50e315c8a381310260672e7a8566ed05">OGE_DisconnectServer</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sAddr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>与使用指定网络地址的服务器断开连接 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sAddr</td><td>网络地址(IP地址:端口) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab66017124f7faf161a87ec9d4c1a16e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gab66017124f7faf161a87ec9d4c1a16e2">OGE_FindClient</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sAddr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据网络地址找出客户端的套接字 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sAddr</td><td>网络地址(IP地址:端口) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>客户端的套接字ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9ce3ba45e3ffb4bb5bea4764c7e871a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga9ce3ba45e3ffb4bb5bea4764c7e871a4">OGE_FindServer</a> </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sAddr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据网络地址找出一个服务器端的套接字 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sAddr</td><td>网络地址(IP地址:端口) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>服务器端的套接字ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga237d45e5d26be273bd07329890b00f40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga237d45e5d26be273bd07329890b00f40">OGE_GetCurrentSocket</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前套接字 </p>
+<dl class="section return"><dt>返回:</dt><dd>套接字的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacf5838e154f818b4d22a127b860a4560"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___network.html#gacf5838e154f818b4d22a127b860a4560">OGE_GetLocalIP</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得本地IP地址 </p>
+<dl class="section return"><dt>返回:</dt><dd>本地IP地址 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6e1788660330840ff9d38cbe6d3f7fc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga6e1788660330840ff9d38cbe6d3f7fc2">OGE_GetLocalServer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得本地服务器的套接字 </p>
+<dl class="section return"><dt>返回:</dt><dd>本地服务器的套接字ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga62e8e58b2d5e365c60ede7f08585d0be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga62e8e58b2d5e365c60ede7f08585d0be">OGE_GetRecvBuf</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从接收缓冲区里拷贝一段内容（若干字节）到另一个缓冲区里 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的读取位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>要拷贝的字节数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>目标缓冲区的ID </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>下一个读取位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>目标缓冲区的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac1c2dcefef3985a6ba70a7db620db9fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char <a class="el" href="group___network.html#gac1c2dcefef3985a6ba70a7db620db9fb">OGE_GetRecvByte</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从接收缓冲区里读取一个字节 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的读取位置 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>下一个读取位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>字节的值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gafb71f02a214b9655262e2713b6f76a9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gafb71f02a214b9655262e2713b6f76a9b">OGE_GetRecvDataSize</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前接收到的数据的大小 </p>
+<dl class="section return"><dt>返回:</dt><dd>当前接收到的数据的大小 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab3bf4513a78367bc065aef4832d46a2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gab3bf4513a78367bc065aef4832d46a2e">OGE_GetRecvDataType</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得当前接收到的数据的类型 </p>
+<dl class="section return"><dt>返回:</dt><dd>接收到的数据的类型 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf2a79d6b517fa3bc28c51743df0044f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="group___network.html#gaf2a79d6b517fa3bc28c51743df0044f7">OGE_GetRecvFloat</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从接收缓冲区里读取一个浮点数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的读取位置 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>下一个读取位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>浮点数的值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6ff1eaa706bd0c0e3da93e8e0724748b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga6ff1eaa706bd0c0e3da93e8e0724748b">OGE_GetRecvInt</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从接收缓冲区里读取一个整数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的读取位置 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>下一个读取位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>整数的值 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gadbf19aaa0d9a99b9aee94dc28ae4e543"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___network.html#gadbf19aaa0d9a99b9aee94dc28ae4e543">OGE_GetRecvStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从接收缓冲区里读取一个字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的读取位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>要读取的字符串的长度 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>下一个读取位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>所读取到的字符串 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0bb8ca8db044f20601944860a828b9c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="group___network.html#ga0bb8ca8db044f20601944860a828b9c4">OGE_GetSocketAddr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>取得套接字的网络地址 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>网络地址(IP地址:端口) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab8f2eebc986642ae1d0a9737cd7ad2ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gab8f2eebc986642ae1d0a9737cd7ad2ed">OGE_GetUserSocket</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据序号取得用户套接字 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>用户套接字的序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>用户套接字的ID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4713e6569ecd41915bc9afa74b5f007e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga4713e6569ecd41915bc9afa74b5f007e">OGE_OpenLocalServer</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iPort</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>让本地服务器开始监听 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iPort</td><td>监听端口 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae329dea77844f4ad98ad1a9b504189b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#gae329dea77844f4ad98ad1a9b504189b1">OGE_PutSendingBuf</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从其他缓冲区里拷贝一段内容（若干字节）到套接字的发送缓冲区里 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的写入位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>源缓冲区的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>要拷贝的字节数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>下一个写入位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga92c1ade3dd55d3594af784639a047e55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga92c1ade3dd55d3594af784639a047e55">OGE_PutSendingByte</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>往套接字的发送缓冲区里写入一个字节 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的写入位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>字节的值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>下一个写入位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga28fbd4a3d2c0d59feb6b5916a63d4317"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga28fbd4a3d2c0d59feb6b5916a63d4317">OGE_PutSendingFloat</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>往套接字的发送缓冲区里写入一个浮点数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的写入位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>浮点数的值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>下一个写入位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga567a6682bce14b1681c6aac850d60b15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga567a6682bce14b1681c6aac850d60b15">OGE_PutSendingInt</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>往套接字的发送缓冲区里写入一个整数 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的写入位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>整数的值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>下一个写入位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga185c62909e2d5e4ff3a9d28c34eb44f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga185c62909e2d5e4ff3a9d28c34eb44f2">OGE_PutSendingStr</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>往套接字的发送缓冲区里写入一个字符串 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>当前的写入位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>要写入的字符串 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>下一个写入位置 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga97bfdbc6182eebc1acfaa2e0ee8c6c01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="group___network.html#ga97bfdbc6182eebc1acfaa2e0ee8c6c01">OGE_SendData</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iDataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>把套接字发送缓冲区里的数据发送出去 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iDataSize</td><td>数据的大小 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回:</dt><dd>如果成功则返回一个非负数 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga75f687350a36bd42240240928d219f0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="group___network.html#ga75f687350a36bd42240240928d219f0c">OGE_SetUserSocket</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iSockId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>用指定序号保存用户套接字 </p>
+<dl class="params"><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iSockId</td><td>套接字的ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>序号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Generated at 2012年五月7日 星期一 11:42:09 for Open Game Engine 2D API by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

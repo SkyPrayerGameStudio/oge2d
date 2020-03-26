@@ -1,0 +1,385 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  
+
+  
+  
+  <title>Open Game Engine 2D: Manual</title><link href="tabs.css" rel="stylesheet" type="text/css">
+
+  
+  <link href="doxygen.css" rel="stylesheet" type="text/css"></head>
+<body>
+<div align="left">
+<h2>Scene's events<br>
+</h2>
+</div>
+
+<div class="contents">
+<div align="left">Open Game Engine 2D, Version 1.0.1
+</div>
+<br>
+<p>In current version, the scene object has 20 events.<br>
+</p>
+<p>In every event, we may use the API function <span style="font-style: italic;">OGE_GetScene()</span> to get current
+scene's id.<br>
+</p>
+<br>
+<div class="contents">
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+  <tbody>
+    <tr>
+      <td class="memname">OnInit </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will be fired when a scene is created.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+  <tbody>
+    <tr>
+      <td class="memname">OnUpdate </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen in every turn of the game cycle.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+  <tbody>
+    <tr>
+      <td class="memname">OnKeyDown <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when players press any keyboard key.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetKey()</span>
+to get the key pressed.<br>
+<br>
+</div>
+</div>
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+  <tbody>
+    <tr>
+      <td class="memname">OnKeyUp </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when players press any keyboard key and release
+it.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetKey()</span>
+to get the key released.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnActive </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the scene is activated.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDeactive </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the scene is deactivated.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnOpen </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the scene is activated and the scene's fade-in effect is finished.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnClose </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen before the scene's fade-out effect starts.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseDown </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when players press any mouse key.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(), OGE_GetMouseY(), OGE_IsMouseLeftDown(), OGE_IsMouseRightDown()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseUp </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when players press any mouse key and release
+it.<br>
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(), OGE_GetMouseY(), OGE_IsMouseLeftUp(), OGE_IsMouseRightUp()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnMouseOver </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the mouse is moving over the scene and it is not catched by any sprite in the scene.<br>
+
+We may use the API function <span style="font-style: italic;">OGE_GetMouseX(), OGE_GetMouseY()</span>
+to get the event info.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDrawSprFin </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when all non-window sprites are drawn.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDrawWinFin </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when all window sprites are drawn.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnDraw </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the scene is drawing.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnTimerTime </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when the scene's timer time is up.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnAcceptClient </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when a server is connected by a client.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnReceiveFromRemoteClient </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when a server receives something from a client.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnRemoteClientDisconnect </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when a server is losing a client.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnRemoteServerDisconnect </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when a client is losing a server.<br>
+<br>
+</div>
+</div>
+
+<br>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tbody>
+<tr>
+<td class="memname">OnReceiveFromRemoteServer </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="memdoc"><br>
+This event will happen when a client receives something from a server.<br>
+<br>
+</div>
+</div>
+
+<br>
+</div><span style="font-weight: bold;"><br>
+<br>
+</span></div>
+
+</body></html>
