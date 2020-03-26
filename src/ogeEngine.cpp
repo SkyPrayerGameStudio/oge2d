@@ -15624,8 +15624,34 @@ void CogeAnima::Draw(int iPosX, int iPosY, CogeFrameEffect* pGlobalEffect)
             break;
 
             case Effect_Rota:
-                pMainScreen->BltRotate( m_pImage, iEffectValue,
-                iPosX,  iPosY, m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.w,  m_FrameRect.h);
+            {
+                if(iPosX < 0 || iPosY < 0
+                   || iPosX + m_FrameRect.w > pMainScreen->GetWidth()
+                   || iPosY + m_FrameRect.h > pMainScreen->GetHeight())
+                {
+                    if(pClipboardA)
+                    {
+                        int iSrcColorKey = m_pImage->GetColorKey();
+
+                        if(iSrcColorKey != -1) pClipboardA->SetColorKey(iSrcColorKey);
+
+                        CogeImage* pCurrentClipboard = pClipboardA;
+                        if(iSrcColorKey != -1)
+                            pCurrentClipboard->FillRect(iSrcColorKey, 0, 0, m_FrameRect.w, m_FrameRect.h);
+                        pCurrentClipboard->BltRotate( m_pImage, iEffectValue,
+                            0,  0, m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.w,  m_FrameRect.h);
+
+                        pMainScreen->Draw( pCurrentClipboard, iPosX,  iPosY,
+                                 0, 0, m_FrameRect.w, m_FrameRect.h);
+                    }
+
+                }
+                else
+                {
+                    pMainScreen->BltRotate( m_pImage, iEffectValue,
+                    iPosX,  iPosY, m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.w,  m_FrameRect.h);
+                }
+            }
             break;
 
             case Effect_Wave:
@@ -15644,9 +15670,35 @@ void CogeAnima::Draw(int iPosX, int iPosY, CogeFrameEffect* pGlobalEffect)
                 iDrawHeight = lround(m_FrameRect.h * pEffect->effect_value);
                 int iDrawX  = iPosX + (m_FrameRect.w >> 1) - (iDrawWidth  >> 1);
                 int iDrawY  = iPosY + (m_FrameRect.h >> 1) - (iDrawHeight >> 1);
-                pMainScreen->BltStretch( m_pImage,
-                m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.x+m_FrameRect.w,  m_FrameRect.y+m_FrameRect.h,
-                iDrawX,  iDrawY, iDrawX + iDrawWidth,  iDrawY + iDrawHeight);
+
+                if(iDrawX < 0 || iDrawY < 0
+                   || iDrawX + iDrawWidth > pMainScreen->GetWidth()
+                   || iDrawY + iDrawHeight > pMainScreen->GetHeight())
+                {
+                    if(pClipboardA)
+                    {
+                        int iSrcColorKey = m_pImage->GetColorKey();
+
+                        if(iSrcColorKey != -1) pClipboardA->SetColorKey(iSrcColorKey);
+
+                        CogeImage* pCurrentClipboard = pClipboardA;
+                        if(iSrcColorKey != -1) pCurrentClipboard->FillRect(iSrcColorKey, 0, 0, iDrawWidth, iDrawHeight);
+                        pCurrentClipboard->BltStretch( m_pImage,
+                            m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.x+m_FrameRect.w,  m_FrameRect.y+m_FrameRect.h,
+                            0,  0, iDrawWidth,  iDrawHeight);
+
+                        pMainScreen->Draw( pCurrentClipboard, iDrawX,  iDrawY,
+                                 0,  0,  iDrawWidth,  iDrawHeight);
+                    }
+
+                }
+                else
+                {
+                    pMainScreen->BltStretch( m_pImage,
+                    m_FrameRect.x,  m_FrameRect.y,  m_FrameRect.x+m_FrameRect.w,  m_FrameRect.y+m_FrameRect.h,
+                    iDrawX,  iDrawY, iDrawX + iDrawWidth,  iDrawY + iDrawHeight);
+                }
+
             }
             break;
 
@@ -15896,8 +15948,24 @@ void CogeAnima::Draw(int iPosX, int iPosY, CogeFrameEffect* pGlobalEffect)
 
                         if(iHandled == iGlobalEffectCount)
                         {
-                            pMainScreen->BltRotate( pCurrentClipboard, iEffectValue,
-                            iPosX,  iPosY, 0,  0,  m_FrameRect.w,  m_FrameRect.h);
+                            if(iPosX < 0 || iPosY < 0
+                               || iPosX + m_FrameRect.w > pMainScreen->GetWidth()
+                               || iPosY + m_FrameRect.h > pMainScreen->GetHeight())
+                            {
+                                if(iSrcColorKey != -1) pFreeClipboard->FillRect(iSrcColorKey, 0, 0, m_FrameRect.w, m_FrameRect.h);
+                                pFreeClipboard->BltRotate( pCurrentClipboard, iEffectValue,
+                                0,  0, 0,  0,  m_FrameRect.w,  m_FrameRect.h);
+
+                                pMainScreen->Draw( pFreeClipboard, iPosX,  iPosY,
+                                         0, 0, m_FrameRect.w, m_FrameRect.h);
+
+                            }
+                            else
+                            {
+                                pMainScreen->BltRotate( pCurrentClipboard, iEffectValue,
+                                iPosX,  iPosY, 0,  0,  m_FrameRect.w,  m_FrameRect.h);
+                            }
+
                         }
                         else
                         {
@@ -16044,9 +16112,27 @@ void CogeAnima::Draw(int iPosX, int iPosY, CogeFrameEffect* pGlobalEffect)
                             int iDrawX  = iPosX + (m_FrameRect.w >> 1) - (iDrawWidth  >> 1);
                             int iDrawY  = iPosY + (m_FrameRect.h >> 1) - (iDrawHeight >> 1);
 
-                            pMainScreen->BltStretch( pCurrentClipboard,
-                             0,  0,  m_FrameRect.w,  m_FrameRect.h,
-                            iDrawX,  iDrawY, iDrawX + iDrawWidth,  iDrawY + iDrawHeight);
+                            if(iDrawX < 0 || iDrawY < 0
+                               || iDrawX + iDrawWidth > pMainScreen->GetWidth()
+                               || iDrawY + iDrawHeight > pMainScreen->GetHeight())
+                            {
+                                if(iSrcColorKey != -1) pFreeClipboard->FillRect(iSrcColorKey, 0, 0, iDrawWidth, iDrawHeight);
+
+                                pFreeClipboard->BltStretch( pCurrentClipboard,
+                                0,  0, m_FrameRect.w, m_FrameRect.h,
+                                0,  0, iDrawWidth, iDrawHeight);
+
+                                pMainScreen->Draw( pFreeClipboard, iDrawX,  iDrawY,
+                                         0,  0,  iDrawWidth,  iDrawHeight);
+
+                            }
+                            else
+                            {
+                                pMainScreen->BltStretch( pCurrentClipboard,
+                                 0,  0,  m_FrameRect.w,  m_FrameRect.h,
+                                iDrawX,  iDrawY, iDrawX + iDrawWidth,  iDrawY + iDrawHeight);
+                            }
+
                         }
                         else
                         {

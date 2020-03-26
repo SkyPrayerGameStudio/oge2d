@@ -186,7 +186,12 @@ public:
 
     void* GetMainWindow();
 
+//#ifdef __OGE_WITH_SDL2__
     int Initialize(int iWidth, int iHeight, int iBPP, bool bFullscreen, int iFlags = _OGE_VIDEO_DF_MODE_);
+//#else
+//    int Initialize(int iWidth, int iHeight, int iBPP, bool bFullscreen, int iFlags = _OGE_VIDEO_MAIN_MODE_);
+//#endif
+
     void Finalize();
 
     int Resume();
